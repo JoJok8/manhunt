@@ -1,0 +1,2 @@
+https://github.com/react-community/react-native-maps
+use react-native-maps by AirBNB - things should be set up? we need to get an api key from google.
