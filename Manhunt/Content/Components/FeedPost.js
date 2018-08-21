@@ -45,7 +45,7 @@ export default class FeedPost extends Component {
 const FeedPostStyles = StyleSheet.create({
   Container: {
     paddingHorizontal: 15,
-    marginVertical: 15
+    marginBottom: 15
   },
   Post: {
     backgroundColor: 'white',
@@ -60,15 +60,16 @@ const FeedPostStyles = StyleSheet.create({
   MainText: {
     fontFamily: 'System',
     fontWeight: '700',
-    fontSize: 38,
+    fontSize: 36,
     marginTop: 20
   },
   Verb: {
     resizeMode: 'cover',
-    height: 54,
-    width: 182,
-    marginBottom: -12,
-    // backgroundColor: 'black'
+    height: 45,
+    width: 153,
+    marginBottom: -9,
+    // backgroundColor: 'black',
+    overflow: 'hidden'
   },
   BottomSection: {
     height: 30,
