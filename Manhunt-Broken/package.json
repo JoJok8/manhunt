@@ -1,0 +1,31 @@
+{
+  "name": "Manhunt",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "react": "16.4.1",
+    "react-autobind": "^1.0.6",
+    "react-native": "0.55.0",
+    "react-native-blur": "^3.2.2",
+    "react-native-effects-view": "^0.4.0",
+    "react-native-fit-image": "^1.5.4",
+    "react-native-navigation": "^1.1.480",
+    "react-native-scalable-image": "^0.4.0",
+    "react-native-svg": "^6.5.2",
+    "react-native-vector-icons": "^5.0.0",
+    "react-navigation": "^2.11.2"
+  },
+  "devDependencies": {
+    "babel-jest": "23.4.2",
+    "babel-preset-react-native": "^5",
+    "jest": "23.5.0",
+    "react-test-renderer": "16.4.1"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}

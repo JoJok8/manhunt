@@ -1,22 +1,25 @@
 import React, {Component} from 'react';
-import {Platform, StyleSheet, Text, View, ScrollView} from 'react-native';
+import {Platform, StyleSheet, Text, View, ScrollView, Image} from 'react-native';
+
+import FeedPost from '../Components/FeedPost.js'
 
 export default class IT_Feed extends Component {
   render() {
     return (
-      <View style={styles.container}>
-        <View style={styles.StatusBarBackground}/>
-        <ScrollView style={styles.ScrollBox}>
-          <View style={styles.HeaderContainer}>
-            <Text style={styles.HeaderText}>The Latest:</Text>
+      <View style={FeedStyles.container}>
+        <View style={FeedStyles.StatusBarBackground}/>
+        <ScrollView style={FeedStyles.ScrollBox}>
+          <View style={FeedStyles.HeaderContainer}>
+            <Text style={FeedStyles.HeaderText}>The Latest:</Text>
           </View>
+          <FeedPost/>
         </ScrollView>
       </View>
     );
   }
 }
 
-const styles = StyleSheet.create({
+const FeedStyles = StyleSheet.create({
   container: {
   },
   StatusBarBackground: {
@@ -42,4 +45,12 @@ const styles = StyleSheet.create({
     textAlign: 'left',
     margin: 10,
   },
+  PostList: {
+  },
+  Post: {
+    backgroundColor: 'white',
+    width: '100%',
+    minHeight: 300,
+    borderRadius: 25
+  }
 });
