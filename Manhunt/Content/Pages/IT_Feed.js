@@ -13,6 +13,7 @@ export default class IT_Feed extends Component {
             <Text style={FeedStyles.HeaderText}>The Latest:</Text>
           </View>
           <FeedPost/>
+          <FeedPost/>
         </ScrollView>
       </View>
     );
