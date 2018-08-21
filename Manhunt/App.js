@@ -7,6 +7,10 @@ import Ionicon from 'react-native-vector-icons/Ionicons';
 import FontAwesome from 'react-native-vector-icons/FontAwesome';
 import MaterialIcon from 'react-native-vector-icons/MaterialIcons';
 
+import { createIconSetFromIcoMoon } from 'react-native-vector-icons';
+import icoMoonConfig from './selection.json';
+const TabBarIcon = createIconSetFromIcoMoon(icoMoonConfig);
+
 import DebugActions from './Content/Pages/DebugActions.js';
 import MapTest from './Content/Pages/MapTest.js';
 import IT_Feed from './Content/Pages/IT_Feed.js';
@@ -36,13 +40,16 @@ const IT_Tabs = createBottomTabNavigator(
       tabBarIcon: ({ focused, tintColor }) => {
         const { routeName } = navigation.state;
         if (routeName === 'Feed') {
-          return <Ionicon name="ios-today" size={30} color={tintColor}/>
+          if(focused){
+            var name = 'today_apps-dark'
+          }
+          return <TabBarIcon name={`today_apps${focused ? '-dark' : ''}`} size={30} color={tintColor}/>
         }
         else if (routeName === 'Catch') {
-          return <FontAwesome name="camera" size={40} color={tintColor}/>
+          return <TabBarIcon name={`define_location${focused ? '-dark' : ''}`} size={30} color={tintColor}/>
         }
         else if (routeName === 'Me') {
-          return <MaterialIcon name="account-circle" size={30} color={tintColor}/>
+          return <TabBarIcon name={`user_male${focused ? '-dark' : ''}`} size={30} color={tintColor}/>
         }
         else {
           return <View></View>
@@ -52,7 +59,10 @@ const IT_Tabs = createBottomTabNavigator(
     tabBarOptions: {
       activeTintColor: 'black',
       inactiveTintColor: 'black',
-      showLabel: false
+      showLabel: false,
+      style: {
+        backgroundColor: '#00000000'
+      }
     },
   }
 );
