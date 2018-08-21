@@ -1,7 +1,13 @@
 import React, {Component} from 'react';
 import {Platform, StyleSheet, Text, View} from 'react-native';
 
-export default class DebugActions extends Component {
+import Icon from 'react-native-vector-icons/FontAwesome';
+
+export default class IT_Feed extends Component {
+  static navigationOptions = {
+    tabBarIcon: <Icon name="rocket" size={30} color="#900" />
+  }
+
   render() {
     return (
       <View style={styles.container}>
