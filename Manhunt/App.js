@@ -5,7 +5,7 @@ import { createStackNavigator } from 'react-navigation';
 
 import DebugActions from './Content/Pages/DebugActions.js';
 
-import FetchLocation from './components/FetchLocation.js';
+import FetchLocation from './Maps/FetchLocation.js';
 
 type Props = {};
 export default class App extends Component<Props> {
