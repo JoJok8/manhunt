@@ -7,8 +7,16 @@ export default class SOCButton extends React.Component {
   }
   depressed(){
     // console.log('depressed');
+    if(this.props.ShrinkCoefficient){
+      var ShrinkDelta = 0.02 * this.props.ShrinkCoefficient;
+      var toValue = 1 - ShrinkDelta;
+    }
+    else {
+      var toValue = 0.98;
+    }
+
     Animated.timing(this.animatedValue, {
-      toValue:0.98,
+      toValue:toValue,
       duration:100
     }).start();
   }
