@@ -5,7 +5,7 @@ import autoBind from 'react-autobind'
 
 import ScalableImage from 'react-native-scalable-image';
 import SOCButton from './SOCButton.js'
-import SvgUri from 'react-native-svg-uri'
+// import SvgUri from 'react-native-svg-uri'
 
 export default class FeedPost extends Component {
 

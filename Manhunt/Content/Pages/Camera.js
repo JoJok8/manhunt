@@ -5,7 +5,7 @@ import SOCButton from '../Components/SOCButton.js';
 
 import autoBind from 'react-autobind';
 
-import { RNCamera } from 'react-native-camera';
+import { RNCamera, FaceDetector } from 'react-native-camera';
 
 export default class Camera extends Component {
   constructor(props){
@@ -21,6 +21,14 @@ export default class Camera extends Component {
     this.props.parent.swiper.scrollBy(1)
   }
 
+  OnFacesDetected(e){
+    console.log(e.faces)
+  }
+
+  captureFace = async (faceArray) => {
+    console.log(faceArray)
+  };
+
   render() {
     return (
       <View>
@@ -31,12 +39,15 @@ export default class Camera extends Component {
             style = {CameraStyles.Preview}
             type={RNCamera.Constants.Type.back}
             permissionDialogTitle={'Permission to use camera'}
-            permissionDialogMessage={'We need your permission to use your camera phone'}
+            permissionDialogMessage={'We need your permission to use your camera'}
         />
       <View style={CameraStyles.BottomSection}>
         <SOCButton onPress={this.ToFeed} ShrinkCoefficient={6}>
           <Image style={CameraStyles.FeedIcon} source={require('../Assets/Images/CameraPageFeedIcon.png')} shadowColor="rgb(0,0,0)" shadowOffset={{width: 0, height: 0}} shadowOpacity={0.3} shadowRadius={4}/>
         </SOCButton>
+        {/*<SOCButton onPress={this.ToFeed} ShrinkCoefficient={6}>
+          <Image style={CameraStyles.TakeIcon} source={require('../Assets/Images/CameraPageFeedIcon.png')} shadowColor="rgb(0,0,0)" shadowOffset={{width: 0, height: 0}} shadowOpacity={0.3} shadowRadius={4}/>
+        </SOCButton>*/}
         <SOCButton onPress={this.ToDashboard} ShrinkCoefficient={6}>
           <Image style={CameraStyles.DashboardIcon} source={require('../Assets/Images/CameraPageDashboardIcon.png')} shadowColor="rgb(0,0,0)" shadowOffset={{width: 0, height: 0}} shadowOpacity={0.3} shadowRadius={4}/>
         </SOCButton>

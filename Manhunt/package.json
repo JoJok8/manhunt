@@ -9,19 +9,12 @@
   "dependencies": {
     "react": "16.4.1",
     "react-autobind": "^1.0.6",
-    "react-native": "^0.56.0",
-    "react-native-blur": "^3.2.2",
+    "react-native": "0.56.0",
     "react-native-camera": "^1.2.0",
-    "react-native-effects-view": "^0.4.0",
-    "react-native-fit-image": "^1.5.4",
-    "react-native-navigation": "^1.1.480",
     "react-native-scalable-image": "^0.4.0",
-    "react-native-svg": "^6.5.2",
-    "react-native-svg-uri": "^1.2.3",
     "react-native-swiper": "^1.5.13",
     "react-native-vector-icons": "^5.0.0",
-    "react-native-viewpager": "^0.2.13",
-    "react-navigation": "^2.11.2"
+    "react-navigation": "^2.12.1"
   },
   "devDependencies": {
     "babel-jest": "23.4.2",
@@ -31,10 +24,5 @@
   },
   "jest": {
     "preset": "react-native"
-  },
-  "rnpm": {
-    "assets": [
-      "Content/Assets/Icons"
-    ]
   }
 }

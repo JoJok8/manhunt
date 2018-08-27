@@ -3,11 +3,6 @@ package com.manhunt;
 import android.app.Application;
 
 import com.facebook.react.ReactApplication;
-import org.reactnative.camera.RNCameraPackage;
-import com.reactnativenavigation.NavigationReactPackage;
-import com.cmcewen.blurview.BlurViewPackage;
-import com.horcrux.svg.SvgPackage;
-import com.oblador.vectoricons.VectorIconsPackage;
 import com.facebook.react.ReactNativeHost;
 import com.facebook.react.ReactPackage;
 import com.facebook.react.shell.MainReactPackage;
@@ -27,12 +22,7 @@ public class MainApplication extends Application implements ReactApplication {
     @Override
     protected List<ReactPackage> getPackages() {
       return Arrays.<ReactPackage>asList(
-          new MainReactPackage(),
-            new RNCameraPackage(),
-            new NavigationReactPackage(),
-            new BlurViewPackage(),
-            new SvgPackage(),
-            new VectorIconsPackage()
+          new MainReactPackage()
       );
     }
 
