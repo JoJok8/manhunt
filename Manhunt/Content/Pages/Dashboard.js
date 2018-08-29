@@ -1,8 +1,9 @@
 import React, {Component} from 'react';
 import {Platform, StyleSheet, Text, View, ScrollView, Image, TouchableOpacity} from 'react-native';
 
-import FastImage from 'react-native-fast-image'
+// import FastImage from 'react-native-fast-image'
 import TargetCard from '../Components/TargetCard.js'
+import ActivityCard from '../Components/ActivityCard.js'
 
 export default class Dashboard extends Component {
   render() {
@@ -13,10 +14,11 @@ export default class Dashboard extends Component {
           <View style={DashboardStyles.HeaderContainer}>
             <Text style={DashboardStyles.HeaderText}>Dashboard</Text>
             <TouchableOpacity style={DashboardStyles.AccountButton}>
-              <FastImage style={DashboardStyles.AccountButtonImage} source={require('../Assets/Images/AccountIcon.png')}/>
+              <Image style={DashboardStyles.AccountButtonImage} source={require('../Assets/Images/AccountIcon.png')}/>
             </TouchableOpacity>
           </View>
           <TargetCard/>
+          <ActivityCard/>
         </ScrollView>
       </View>
     );

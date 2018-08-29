@@ -4,7 +4,7 @@ import {Platform, StyleSheet, Text, View, ScrollView, Dimensions, Image, Touchab
 import autoBind from 'react-autobind'
 
 import ScalableImage from 'react-native-scalable-image';
-import FastImage from 'react-native-fast-image'
+// import FastImage from 'react-native-fast-image'
 import SOCButton from './SOCButton.js'
 
 export default class TargetCard extends Component {
