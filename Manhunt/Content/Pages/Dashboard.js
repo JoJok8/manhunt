@@ -1,11 +1,24 @@
 import React, {Component} from 'react';
 import {Platform, StyleSheet, Text, View, ScrollView, Image, TouchableOpacity} from 'react-native';
 
-// import FastImage from 'react-native-fast-image'
+import { createStackNavigator } from 'react-navigation';
+
+import autoBind from 'react-autobind';
+
 import TargetCard from '../Components/TargetCard.js'
 import ActivityCard from '../Components/ActivityCard.js'
 
 export default class Dashboard extends Component {
+
+  constructor(props){
+    super(props)
+    autoBind(this)
+  }
+
+  GoToAccount(){
+    this.props.parent.props.navigation.navigate('Account')
+  }
+
   render() {
     return (
       <View style={DashboardStyles.container}>
@@ -13,7 +26,7 @@ export default class Dashboard extends Component {
         <ScrollView style={DashboardStyles.ScrollBox}>
           <View style={DashboardStyles.HeaderContainer}>
             <Text style={DashboardStyles.HeaderText}>Dashboard</Text>
-            <TouchableOpacity style={DashboardStyles.AccountButton}>
+            <TouchableOpacity style={DashboardStyles.AccountButton} onPress={this.GoToAccount}>
               <Image style={DashboardStyles.AccountButtonImage} source={require('../Assets/Images/AccountIcon.png')}/>
             </TouchableOpacity>
           </View>
@@ -27,6 +40,7 @@ export default class Dashboard extends Component {
 
 const DashboardStyles = StyleSheet.create({
   container: {
+    backgroundColor: 'white'
   },
   StatusBarBackground: {
     backgroundColor: 'rgba(255,255,255,0.99)',

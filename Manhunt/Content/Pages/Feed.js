@@ -22,6 +22,7 @@ export default class Feed extends Component {
 
 const FeedStyles = StyleSheet.create({
   container: {
+    backgroundColor: 'white'
   },
   StatusBarBackground: {
     backgroundColor: 'rgba(255,255,255,0.99)',

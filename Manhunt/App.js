@@ -3,6 +3,7 @@ import {Platform, StyleSheet, Text, View} from 'react-native';
 
 import autoBind from 'react-autobind';
 
+import { createStackNavigator } from 'react-navigation';
 import Swiper from 'react-native-swiper'
 
 import { createIconSetFromIcoMoon } from 'react-native-vector-icons';
@@ -14,7 +15,7 @@ import Dashboard from './Content/Pages/Dashboard.js';
 import Feed from './Content/Pages/Feed.js';
 import CameraPage from './Content/Pages/Camera.js';
 
-class App extends React.Component {
+class MainSwiper extends React.Component {
 
   constructor(props){
     super(props)
@@ -38,5 +39,21 @@ class App extends React.Component {
     )
   }
 }
+
+const App = createStackNavigator({
+    MainSwiper: {
+      screen: MainSwiper
+    },
+    Account: {
+      screen: DebugActions
+    }
+  },
+  {
+    headerMode: 'none',
+    navigationOptions: {
+      headerVisible: false,
+    }
+  }
+);
 
 export default App
