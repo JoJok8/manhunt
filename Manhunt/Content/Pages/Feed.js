@@ -3,7 +3,7 @@ import {Platform, StyleSheet, Text, View, ScrollView, Image} from 'react-native'
 
 import FeedPost from '../Components/FeedPost.js'
 
-export default class IT_Feed extends Component {
+export default class Feed extends Component {
   render() {
     return (
       <View style={FeedStyles.container}>
@@ -44,7 +44,7 @@ const FeedStyles = StyleSheet.create({
     fontWeight: '800',
     fontSize: 36,
     textAlign: 'left',
-    margin: 10,
+    margin: 15,
   },
   PostList: {
   },

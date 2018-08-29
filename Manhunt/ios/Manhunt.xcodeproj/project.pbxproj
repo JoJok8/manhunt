@@ -13,6 +13,7 @@
 		00C302E91ABCBA2D00DB3ED1 /* libRCTNetwork.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302DC1ABCB9D200DB3ED1 /* libRCTNetwork.a */; };
 		00C302EA1ABCBA2D00DB3ED1 /* libRCTVibration.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302E41ABCB9EE00DB3ED1 /* libRCTVibration.a */; };
 		00E356F31AD99517003FC87E /* ManhuntTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* ManhuntTests.m */; };
+		01E1A5F6A1634BEB86B9592B /* libFastImage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D75BA7CDFD0494EB20A6004 /* libFastImage.a */; };
 		133E29F31AD74F7200F7D852 /* libRCTLinking.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 78C398B91ACF4ADC00677621 /* libRCTLinking.a */; };
 		139105C61AF99C1200B5F7CC /* libRCTSettings.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 139105C11AF99BAD00B5F7CC /* libRCTSettings.a */; };
 		139FDEF61B0652A700C62182 /* libRCTWebSocket.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 139FDEF41B06529B00C62182 /* libRCTWebSocket.a */; };
@@ -38,46 +39,46 @@
 		5E9157361DD0AC6A00FF2AA8 /* libRCTAnimation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E9157331DD0AC6500FF2AA8 /* libRCTAnimation.a */; };
 		6A74E4A52133EF8C0059621F /* libRNCamera.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A74E4A42133EF7F0059621F /* libRNCamera.a */; };
 		6A74E4A62133EF930059621F /* libRNCamera.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A74E4A42133EF7F0059621F /* libRNCamera.a */; };
-		6A844C962136669B00E01116 /* dummy.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6A844C6E2136669200E01116 /* dummy.txt */; };
-		6A844C972136669B00E01116 /* dummy.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6A844C6E2136669200E01116 /* dummy.txt */; };
-		6A844C9A2136669B00E01116 /* dummy.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6A844C722136669300E01116 /* dummy.txt */; };
-		6A844C9B2136669B00E01116 /* dummy.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6A844C722136669300E01116 /* dummy.txt */; };
-		6A844C9C2136669B00E01116 /* GoogleUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A844C752136669300E01116 /* GoogleUtilities.framework */; };
-		6A844C9D2136669B00E01116 /* GoogleUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A844C752136669300E01116 /* GoogleUtilities.framework */; };
-		6A844C9E2136669B00E01116 /* dummy.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6A844C772136669500E01116 /* dummy.txt */; };
-		6A844C9F2136669B00E01116 /* dummy.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6A844C772136669500E01116 /* dummy.txt */; };
-		6A844CA02136669B00E01116 /* GoogleNetworkingUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A844C7A2136669500E01116 /* GoogleNetworkingUtilities.framework */; };
-		6A844CA12136669B00E01116 /* GoogleNetworkingUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A844C7A2136669500E01116 /* GoogleNetworkingUtilities.framework */; };
-		6A844CA22136669B00E01116 /* BCLlefteyeclosed_200.emd in Resources */ = {isa = PBXBuildFile; fileRef = 6A844C7E2136669900E01116 /* BCLlefteyeclosed_200.emd */; };
-		6A844CA32136669B00E01116 /* BCLlefteyeclosed_200.emd in Resources */ = {isa = PBXBuildFile; fileRef = 6A844C7E2136669900E01116 /* BCLlefteyeclosed_200.emd */; };
-		6A844CA42136669B00E01116 /* BCLjoy_100.emd in Resources */ = {isa = PBXBuildFile; fileRef = 6A844C7F2136669900E01116 /* BCLjoy_100.emd */; };
-		6A844CA52136669B00E01116 /* BCLjoy_100.emd in Resources */ = {isa = PBXBuildFile; fileRef = 6A844C7F2136669900E01116 /* BCLjoy_100.emd */; };
-		6A844CA62136669B00E01116 /* MFTprec_202.emd in Resources */ = {isa = PBXBuildFile; fileRef = 6A844C802136669900E01116 /* MFTprec_202.emd */; };
-		6A844CA72136669B00E01116 /* MFTprec_202.emd in Resources */ = {isa = PBXBuildFile; fileRef = 6A844C802136669900E01116 /* MFTprec_202.emd */; };
-		6A844CA82136669B00E01116 /* PFFprec_702.emd in Resources */ = {isa = PBXBuildFile; fileRef = 6A844C812136669900E01116 /* PFFprec_702.emd */; };
-		6A844CA92136669B00E01116 /* PFFprec_702.emd in Resources */ = {isa = PBXBuildFile; fileRef = 6A844C812136669900E01116 /* PFFprec_702.emd */; };
-		6A844CAA2136669B00E01116 /* LMprec_600.emd in Resources */ = {isa = PBXBuildFile; fileRef = 6A844C822136669900E01116 /* LMprec_600.emd */; };
-		6A844CAB2136669B00E01116 /* LMprec_600.emd in Resources */ = {isa = PBXBuildFile; fileRef = 6A844C822136669900E01116 /* LMprec_600.emd */; };
-		6A844CAC2136669B00E01116 /* BCLrighteyeclosed_200.emd in Resources */ = {isa = PBXBuildFile; fileRef = 6A844C832136669900E01116 /* BCLrighteyeclosed_200.emd */; };
-		6A844CAD2136669B00E01116 /* BCLrighteyeclosed_200.emd in Resources */ = {isa = PBXBuildFile; fileRef = 6A844C832136669900E01116 /* BCLrighteyeclosed_200.emd */; };
-		6A844CAE2136669B00E01116 /* FaceDetector.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A844C862136669900E01116 /* FaceDetector.framework */; };
-		6A844CAF2136669B00E01116 /* FaceDetector.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A844C862136669900E01116 /* FaceDetector.framework */; };
-		6A844CB02136669B00E01116 /* dummy.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6A844C882136669900E01116 /* dummy.txt */; };
-		6A844CB12136669B00E01116 /* dummy.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6A844C882136669900E01116 /* dummy.txt */; };
-		6A844CB22136669B00E01116 /* GoogleMobileVision.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A844C8B2136669900E01116 /* GoogleMobileVision.framework */; };
-		6A844CB32136669B00E01116 /* GoogleMobileVision.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A844C8B2136669900E01116 /* GoogleMobileVision.framework */; };
-		6A844CB42136669B00E01116 /* dummy.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6A844C8D2136669900E01116 /* dummy.txt */; };
-		6A844CB52136669B00E01116 /* dummy.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6A844C8D2136669900E01116 /* dummy.txt */; };
-		6A844CB62136669B00E01116 /* GoogleMVDataOutput.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A844C902136669900E01116 /* GoogleMVDataOutput.framework */; };
-		6A844CB72136669B00E01116 /* GoogleMVDataOutput.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A844C902136669900E01116 /* GoogleMVDataOutput.framework */; };
-		6A844CB82136669B00E01116 /* dummy.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6A844C922136669A00E01116 /* dummy.txt */; };
-		6A844CB92136669B00E01116 /* dummy.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6A844C922136669A00E01116 /* dummy.txt */; };
-		6A844CBA2136669B00E01116 /* GoogleInterchangeUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A844C952136669B00E01116 /* GoogleInterchangeUtilities.framework */; };
-		6A844CBB2136669B00E01116 /* GoogleInterchangeUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A844C952136669B00E01116 /* GoogleInterchangeUtilities.framework */; };
 		6A844CBD213666A800E01116 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A844CBC213666A800E01116 /* AddressBook.framework */; };
 		6A844CBE213666B300E01116 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A844CBC213666A800E01116 /* AddressBook.framework */; };
-		6A844CBF213666F700E01116 /* GoogleSymbolUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A844C702136669200E01116 /* GoogleSymbolUtilities.framework */; };
-		6A844CC02136670300E01116 /* GoogleSymbolUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A844C702136669200E01116 /* GoogleSymbolUtilities.framework */; };
+		6AFE90BD21366E3A00DC8D80 /* BCLlefteyeclosed_200.emd in Resources */ = {isa = PBXBuildFile; fileRef = 6AFE909721366E3900DC8D80 /* BCLlefteyeclosed_200.emd */; };
+		6AFE90BE21366E3A00DC8D80 /* BCLlefteyeclosed_200.emd in Resources */ = {isa = PBXBuildFile; fileRef = 6AFE909721366E3900DC8D80 /* BCLlefteyeclosed_200.emd */; };
+		6AFE90BF21366E3A00DC8D80 /* BCLjoy_100.emd in Resources */ = {isa = PBXBuildFile; fileRef = 6AFE909821366E3900DC8D80 /* BCLjoy_100.emd */; };
+		6AFE90C021366E3A00DC8D80 /* BCLjoy_100.emd in Resources */ = {isa = PBXBuildFile; fileRef = 6AFE909821366E3900DC8D80 /* BCLjoy_100.emd */; };
+		6AFE90C121366E3A00DC8D80 /* MFTprec_202.emd in Resources */ = {isa = PBXBuildFile; fileRef = 6AFE909921366E3900DC8D80 /* MFTprec_202.emd */; };
+		6AFE90C221366E3A00DC8D80 /* MFTprec_202.emd in Resources */ = {isa = PBXBuildFile; fileRef = 6AFE909921366E3900DC8D80 /* MFTprec_202.emd */; };
+		6AFE90C321366E3A00DC8D80 /* PFFprec_702.emd in Resources */ = {isa = PBXBuildFile; fileRef = 6AFE909A21366E3900DC8D80 /* PFFprec_702.emd */; };
+		6AFE90C421366E3A00DC8D80 /* PFFprec_702.emd in Resources */ = {isa = PBXBuildFile; fileRef = 6AFE909A21366E3900DC8D80 /* PFFprec_702.emd */; };
+		6AFE90C521366E3A00DC8D80 /* LMprec_600.emd in Resources */ = {isa = PBXBuildFile; fileRef = 6AFE909B21366E3900DC8D80 /* LMprec_600.emd */; };
+		6AFE90C621366E3A00DC8D80 /* LMprec_600.emd in Resources */ = {isa = PBXBuildFile; fileRef = 6AFE909B21366E3900DC8D80 /* LMprec_600.emd */; };
+		6AFE90C721366E3A00DC8D80 /* BCLrighteyeclosed_200.emd in Resources */ = {isa = PBXBuildFile; fileRef = 6AFE909C21366E3900DC8D80 /* BCLrighteyeclosed_200.emd */; };
+		6AFE90C821366E3A00DC8D80 /* BCLrighteyeclosed_200.emd in Resources */ = {isa = PBXBuildFile; fileRef = 6AFE909C21366E3900DC8D80 /* BCLrighteyeclosed_200.emd */; };
+		6AFE90C921366E3A00DC8D80 /* FaceDetector.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AFE909F21366E3900DC8D80 /* FaceDetector.framework */; };
+		6AFE90CA21366E3A00DC8D80 /* FaceDetector.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AFE909F21366E3900DC8D80 /* FaceDetector.framework */; };
+		6AFE90CB21366E3A00DC8D80 /* dummy.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6AFE90A121366E3900DC8D80 /* dummy.txt */; };
+		6AFE90CC21366E3A00DC8D80 /* dummy.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6AFE90A121366E3900DC8D80 /* dummy.txt */; };
+		6AFE90CD21366E3A00DC8D80 /* GoogleMobileVision.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AFE90A421366E3900DC8D80 /* GoogleMobileVision.framework */; };
+		6AFE90CE21366E3A00DC8D80 /* GoogleMobileVision.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AFE90A421366E3900DC8D80 /* GoogleMobileVision.framework */; };
+		6AFE90CF21366E3A00DC8D80 /* dummy.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6AFE90A621366E3900DC8D80 /* dummy.txt */; };
+		6AFE90D021366E3A00DC8D80 /* dummy.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6AFE90A621366E3900DC8D80 /* dummy.txt */; };
+		6AFE90D121366E3A00DC8D80 /* GoogleMVDataOutput.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AFE90A921366E3900DC8D80 /* GoogleMVDataOutput.framework */; };
+		6AFE90D221366E3A00DC8D80 /* GoogleMVDataOutput.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AFE90A921366E3900DC8D80 /* GoogleMVDataOutput.framework */; };
+		6AFE90D321366E3A00DC8D80 /* dummy.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6AFE90AB21366E3900DC8D80 /* dummy.txt */; };
+		6AFE90D421366E3A00DC8D80 /* dummy.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6AFE90AB21366E3900DC8D80 /* dummy.txt */; };
+		6AFE90D521366E3A00DC8D80 /* GoogleUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AFE90AE21366E3900DC8D80 /* GoogleUtilities.framework */; };
+		6AFE90D621366E3A00DC8D80 /* GoogleUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AFE90AE21366E3900DC8D80 /* GoogleUtilities.framework */; };
+		6AFE90D721366E3A00DC8D80 /* dummy.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6AFE90B021366E3900DC8D80 /* dummy.txt */; };
+		6AFE90D821366E3A00DC8D80 /* dummy.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6AFE90B021366E3900DC8D80 /* dummy.txt */; };
+		6AFE90D921366E3A00DC8D80 /* GoogleSymbolUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AFE90B221366E3900DC8D80 /* GoogleSymbolUtilities.framework */; };
+		6AFE90DA21366E3A00DC8D80 /* GoogleSymbolUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AFE90B221366E3900DC8D80 /* GoogleSymbolUtilities.framework */; };
+		6AFE90DB21366E3A00DC8D80 /* dummy.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6AFE90B421366E3900DC8D80 /* dummy.txt */; };
+		6AFE90DC21366E3A00DC8D80 /* dummy.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6AFE90B421366E3900DC8D80 /* dummy.txt */; };
+		6AFE90DD21366E3A00DC8D80 /* GoogleInterchangeUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AFE90B721366E3900DC8D80 /* GoogleInterchangeUtilities.framework */; };
+		6AFE90DE21366E3A00DC8D80 /* GoogleInterchangeUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AFE90B721366E3900DC8D80 /* GoogleInterchangeUtilities.framework */; };
+		6AFE90DF21366E3A00DC8D80 /* dummy.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6AFE90B921366E3900DC8D80 /* dummy.txt */; };
+		6AFE90E021366E3A00DC8D80 /* dummy.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6AFE90B921366E3900DC8D80 /* dummy.txt */; };
+		6AFE90E121366E3A00DC8D80 /* GoogleNetworkingUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AFE90BC21366E3900DC8D80 /* GoogleNetworkingUtilities.framework */; };
+		6AFE90E221366E3A00DC8D80 /* GoogleNetworkingUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AFE90BC21366E3900DC8D80 /* GoogleNetworkingUtilities.framework */; };
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
 		ADBDB9381DFEBF1600ED6528 /* libRCTBlob.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ADBDB9271DFEBF0700ED6528 /* libRCTBlob.a */; };
 /* End PBXBuildFile section */
@@ -335,6 +336,13 @@
 			remoteGlobalIDString = 2D2A28201D9B03D100D4039D;
 			remoteInfo = "RCTAnimation-tvOS";
 		};
+		6A14618321366C2C00C3F07A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C5DC1E046C2473DACA1C501 /* FastImage.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A287971D1DE0C0A60081BDFA;
+			remoteInfo = FastImage;
+		};
 		6A74E4A32133EF7F0059621F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 6A74E47A2133EF7F0059621F /* RNCamera.xcodeproj */;
@@ -385,32 +393,34 @@
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Manhunt/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Manhunt/main.m; sourceTree = "<group>"; };
 		146833FF1AC3E56700842450 /* React.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = React.xcodeproj; path = "../node_modules/react-native/React/React.xcodeproj"; sourceTree = "<group>"; };
+		2C5DC1E046C2473DACA1C501 /* FastImage.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = FastImage.xcodeproj; path = "../node_modules/react-native-fast-image/ios/FastImage.xcodeproj"; sourceTree = "<group>"; };
 		2D02E47B1E0B4A5D006451C7 /* Manhunt-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Manhunt-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* Manhunt-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Manhunt-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D16E6891FA4F8E400B85C8A /* libReact.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libReact.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E91572D1DD0AC6500FF2AA8 /* RCTAnimation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTAnimation.xcodeproj; path = "../node_modules/react-native/Libraries/NativeAnimation/RCTAnimation.xcodeproj"; sourceTree = "<group>"; };
 		6A74E47A2133EF7F0059621F /* RNCamera.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RNCamera.xcodeproj; path = "../node_modules/react-native-camera/ios/RNCamera.xcodeproj"; sourceTree = "<group>"; };
-		6A844C6E2136669200E01116 /* dummy.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dummy.txt; sourceTree = "<group>"; };
-		6A844C702136669200E01116 /* GoogleSymbolUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleSymbolUtilities.framework; sourceTree = "<group>"; };
-		6A844C722136669300E01116 /* dummy.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dummy.txt; sourceTree = "<group>"; };
-		6A844C752136669300E01116 /* GoogleUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleUtilities.framework; sourceTree = "<group>"; };
-		6A844C772136669500E01116 /* dummy.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dummy.txt; sourceTree = "<group>"; };
-		6A844C7A2136669500E01116 /* GoogleNetworkingUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleNetworkingUtilities.framework; sourceTree = "<group>"; };
-		6A844C7E2136669900E01116 /* BCLlefteyeclosed_200.emd */ = {isa = PBXFileReference; lastKnownFileType = file; path = BCLlefteyeclosed_200.emd; sourceTree = "<group>"; };
-		6A844C7F2136669900E01116 /* BCLjoy_100.emd */ = {isa = PBXFileReference; lastKnownFileType = file; path = BCLjoy_100.emd; sourceTree = "<group>"; };
-		6A844C802136669900E01116 /* MFTprec_202.emd */ = {isa = PBXFileReference; lastKnownFileType = file; path = MFTprec_202.emd; sourceTree = "<group>"; };
-		6A844C812136669900E01116 /* PFFprec_702.emd */ = {isa = PBXFileReference; lastKnownFileType = file; path = PFFprec_702.emd; sourceTree = "<group>"; };
-		6A844C822136669900E01116 /* LMprec_600.emd */ = {isa = PBXFileReference; lastKnownFileType = file; path = LMprec_600.emd; sourceTree = "<group>"; };
-		6A844C832136669900E01116 /* BCLrighteyeclosed_200.emd */ = {isa = PBXFileReference; lastKnownFileType = file; path = BCLrighteyeclosed_200.emd; sourceTree = "<group>"; };
-		6A844C862136669900E01116 /* FaceDetector.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FaceDetector.framework; sourceTree = "<group>"; };
-		6A844C882136669900E01116 /* dummy.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dummy.txt; sourceTree = "<group>"; };
-		6A844C8B2136669900E01116 /* GoogleMobileVision.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMobileVision.framework; sourceTree = "<group>"; };
-		6A844C8D2136669900E01116 /* dummy.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dummy.txt; sourceTree = "<group>"; };
-		6A844C902136669900E01116 /* GoogleMVDataOutput.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMVDataOutput.framework; sourceTree = "<group>"; };
-		6A844C922136669A00E01116 /* dummy.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dummy.txt; sourceTree = "<group>"; };
-		6A844C952136669B00E01116 /* GoogleInterchangeUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleInterchangeUtilities.framework; sourceTree = "<group>"; };
 		6A844CBC213666A800E01116 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		6AFE909721366E3900DC8D80 /* BCLlefteyeclosed_200.emd */ = {isa = PBXFileReference; lastKnownFileType = file; path = BCLlefteyeclosed_200.emd; sourceTree = "<group>"; };
+		6AFE909821366E3900DC8D80 /* BCLjoy_100.emd */ = {isa = PBXFileReference; lastKnownFileType = file; path = BCLjoy_100.emd; sourceTree = "<group>"; };
+		6AFE909921366E3900DC8D80 /* MFTprec_202.emd */ = {isa = PBXFileReference; lastKnownFileType = file; path = MFTprec_202.emd; sourceTree = "<group>"; };
+		6AFE909A21366E3900DC8D80 /* PFFprec_702.emd */ = {isa = PBXFileReference; lastKnownFileType = file; path = PFFprec_702.emd; sourceTree = "<group>"; };
+		6AFE909B21366E3900DC8D80 /* LMprec_600.emd */ = {isa = PBXFileReference; lastKnownFileType = file; path = LMprec_600.emd; sourceTree = "<group>"; };
+		6AFE909C21366E3900DC8D80 /* BCLrighteyeclosed_200.emd */ = {isa = PBXFileReference; lastKnownFileType = file; path = BCLrighteyeclosed_200.emd; sourceTree = "<group>"; };
+		6AFE909F21366E3900DC8D80 /* FaceDetector.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FaceDetector.framework; sourceTree = "<group>"; };
+		6AFE90A121366E3900DC8D80 /* dummy.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dummy.txt; sourceTree = "<group>"; };
+		6AFE90A421366E3900DC8D80 /* GoogleMobileVision.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMobileVision.framework; sourceTree = "<group>"; };
+		6AFE90A621366E3900DC8D80 /* dummy.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dummy.txt; sourceTree = "<group>"; };
+		6AFE90A921366E3900DC8D80 /* GoogleMVDataOutput.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMVDataOutput.framework; sourceTree = "<group>"; };
+		6AFE90AB21366E3900DC8D80 /* dummy.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dummy.txt; sourceTree = "<group>"; };
+		6AFE90AE21366E3900DC8D80 /* GoogleUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleUtilities.framework; sourceTree = "<group>"; };
+		6AFE90B021366E3900DC8D80 /* dummy.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dummy.txt; sourceTree = "<group>"; };
+		6AFE90B221366E3900DC8D80 /* GoogleSymbolUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleSymbolUtilities.framework; sourceTree = "<group>"; };
+		6AFE90B421366E3900DC8D80 /* dummy.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dummy.txt; sourceTree = "<group>"; };
+		6AFE90B721366E3900DC8D80 /* GoogleInterchangeUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleInterchangeUtilities.framework; sourceTree = "<group>"; };
+		6AFE90B921366E3900DC8D80 /* dummy.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dummy.txt; sourceTree = "<group>"; };
+		6AFE90BC21366E3900DC8D80 /* GoogleNetworkingUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleNetworkingUtilities.framework; sourceTree = "<group>"; };
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
+		7D75BA7CDFD0494EB20A6004 /* libFastImage.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libFastImage.a; sourceTree = "<group>"; };
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
 		ADBDB91F1DFEBF0600ED6528 /* RCTBlob.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTBlob.xcodeproj; path = "../node_modules/react-native/Libraries/Blob/RCTBlob.xcodeproj"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -420,16 +430,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6AFE90E221366E3A00DC8D80 /* GoogleNetworkingUtilities.framework in Frameworks */,
+				6AFE90DE21366E3A00DC8D80 /* GoogleInterchangeUtilities.framework in Frameworks */,
 				6A844CBE213666B300E01116 /* AddressBook.framework in Frameworks */,
-				6A844CBB2136669B00E01116 /* GoogleInterchangeUtilities.framework in Frameworks */,
-				6A844CA12136669B00E01116 /* GoogleNetworkingUtilities.framework in Frameworks */,
-				6A844CAF2136669B00E01116 /* FaceDetector.framework in Frameworks */,
-				6A844CB72136669B00E01116 /* GoogleMVDataOutput.framework in Frameworks */,
-				6A844CB32136669B00E01116 /* GoogleMobileVision.framework in Frameworks */,
 				140ED2AC1D01E1AD002B40FF /* libReact.a in Frameworks */,
-				6A844C9D2136669B00E01116 /* GoogleUtilities.framework in Frameworks */,
+				6AFE90DA21366E3A00DC8D80 /* GoogleSymbolUtilities.framework in Frameworks */,
+				6AFE90CE21366E3A00DC8D80 /* GoogleMobileVision.framework in Frameworks */,
+				6AFE90D221366E3A00DC8D80 /* GoogleMVDataOutput.framework in Frameworks */,
 				6A74E4A62133EF930059621F /* libRNCamera.a in Frameworks */,
-				6A844CBF213666F700E01116 /* GoogleSymbolUtilities.framework in Frameworks */,
+				6AFE90CA21366E3A00DC8D80 /* FaceDetector.framework in Frameworks */,
+				6AFE90D621366E3A00DC8D80 /* GoogleUtilities.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -438,27 +448,28 @@
 			buildActionMask = 2147483647;
 			files = (
 				6A844CBD213666A800E01116 /* AddressBook.framework in Frameworks */,
-				6A844CBA2136669B00E01116 /* GoogleInterchangeUtilities.framework in Frameworks */,
 				ADBDB9381DFEBF1600ED6528 /* libRCTBlob.a in Frameworks */,
-				6A844CAE2136669B00E01116 /* FaceDetector.framework in Frameworks */,
 				5E9157361DD0AC6A00FF2AA8 /* libRCTAnimation.a in Frameworks */,
-				6A844CB62136669B00E01116 /* GoogleMVDataOutput.framework in Frameworks */,
+				6AFE90D921366E3A00DC8D80 /* GoogleSymbolUtilities.framework in Frameworks */,
 				146834051AC3E58100842450 /* libReact.a in Frameworks */,
 				5E9157361DD0AC6A00FF2AA8 /* libRCTAnimation.a in Frameworks */,
+				6AFE90CD21366E3A00DC8D80 /* GoogleMobileVision.framework in Frameworks */,
+				6AFE90DD21366E3A00DC8D80 /* GoogleInterchangeUtilities.framework in Frameworks */,
+				6AFE90E121366E3A00DC8D80 /* GoogleNetworkingUtilities.framework in Frameworks */,
 				00C302E51ABCBA2D00DB3ED1 /* libRCTActionSheet.a in Frameworks */,
 				00C302E71ABCBA2D00DB3ED1 /* libRCTGeolocation.a in Frameworks */,
+				6AFE90C921366E3A00DC8D80 /* FaceDetector.framework in Frameworks */,
 				00C302E81ABCBA2D00DB3ED1 /* libRCTImage.a in Frameworks */,
 				133E29F31AD74F7200F7D852 /* libRCTLinking.a in Frameworks */,
 				00C302E91ABCBA2D00DB3ED1 /* libRCTNetwork.a in Frameworks */,
 				139105C61AF99C1200B5F7CC /* libRCTSettings.a in Frameworks */,
+				6AFE90D121366E3A00DC8D80 /* GoogleMVDataOutput.framework in Frameworks */,
 				832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */,
 				00C302EA1ABCBA2D00DB3ED1 /* libRCTVibration.a in Frameworks */,
 				139FDEF61B0652A700C62182 /* libRCTWebSocket.a in Frameworks */,
-				6A844C9C2136669B00E01116 /* GoogleUtilities.framework in Frameworks */,
 				6A74E4A52133EF8C0059621F /* libRNCamera.a in Frameworks */,
-				6A844CA02136669B00E01116 /* GoogleNetworkingUtilities.framework in Frameworks */,
-				6A844CB22136669B00E01116 /* GoogleMobileVision.framework in Frameworks */,
-				6A844CC02136670300E01116 /* GoogleSymbolUtilities.framework in Frameworks */,
+				6AFE90D521366E3A00DC8D80 /* GoogleUtilities.framework in Frameworks */,
+				01E1A5F6A1634BEB86B9592B /* libFastImage.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -621,6 +632,22 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		6A14615821366C2900C3F07A /* Recovered References */ = {
+			isa = PBXGroup;
+			children = (
+				7D75BA7CDFD0494EB20A6004 /* libFastImage.a */,
+			);
+			name = "Recovered References";
+			sourceTree = "<group>";
+		};
+		6A14618021366C2B00C3F07A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6A14618421366C2C00C3F07A /* libFastImage.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		6A74E47B2133EF7F0059621F /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -632,202 +659,202 @@
 		6A844C462136667A00E01116 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				6AFE90AF21366E3900DC8D80 /* dbffca986f6337f8-GoogleSymbolUtilities-1.1.1 2 */,
+				6AFE90B321366E3900DC8D80 /* GoogleInterchangeUtilities-1.2.2 */,
+				6AFE909421366E3900DC8D80 /* GoogleMobileVision-1.1.0 */,
+				6AFE90B821366E3900DC8D80 /* GoogleNetworkingUtilities-1.2.2 */,
+				6AFE90AA21366E3900DC8D80 /* GoogleUtilities-1.3.2 */,
 				6A844CBC213666A800E01116 /* AddressBook.framework */,
-				6A844C6D2136669200E01116 /* dbffca986f6337f8-GoogleSymbolUtilities-1.1.1 2 */,
-				6A844C912136669A00E01116 /* GoogleInterchangeUtilities-1.2.2 */,
-				6A844C7B2136669900E01116 /* GoogleMobileVision-1.1.0 */,
-				6A844C762136669500E01116 /* GoogleNetworkingUtilities-1.2.2 */,
-				6A844C712136669300E01116 /* GoogleUtilities-1.3.2 */,
 			);
 			path = Frameworks;
 			sourceTree = "<group>";
 		};
-		6A844C6D2136669200E01116 /* dbffca986f6337f8-GoogleSymbolUtilities-1.1.1 2 */ = {
+		6AFE909421366E3900DC8D80 /* GoogleMobileVision-1.1.0 */ = {
 			isa = PBXGroup;
 			children = (
-				6A844C6E2136669200E01116 /* dummy.txt */,
-				6A844C6F2136669200E01116 /* Frameworks */,
-			);
-			path = "dbffca986f6337f8-GoogleSymbolUtilities-1.1.1 2";
-			sourceTree = "<group>";
-		};
-		6A844C6F2136669200E01116 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				6A844C702136669200E01116 /* GoogleSymbolUtilities.framework */,
-			);
-			path = Frameworks;
-			sourceTree = "<group>";
-		};
-		6A844C712136669300E01116 /* GoogleUtilities-1.3.2 */ = {
-			isa = PBXGroup;
-			children = (
-				6A844C722136669300E01116 /* dummy.txt */,
-				6A844C732136669300E01116 /* Frameworks */,
-			);
-			path = "GoogleUtilities-1.3.2";
-			sourceTree = "<group>";
-		};
-		6A844C732136669300E01116 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				6A844C742136669300E01116 /* frameworks */,
-			);
-			path = Frameworks;
-			sourceTree = "<group>";
-		};
-		6A844C742136669300E01116 /* frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				6A844C752136669300E01116 /* GoogleUtilities.framework */,
-			);
-			path = frameworks;
-			sourceTree = "<group>";
-		};
-		6A844C762136669500E01116 /* GoogleNetworkingUtilities-1.2.2 */ = {
-			isa = PBXGroup;
-			children = (
-				6A844C772136669500E01116 /* dummy.txt */,
-				6A844C782136669500E01116 /* Frameworks */,
-			);
-			path = "GoogleNetworkingUtilities-1.2.2";
-			sourceTree = "<group>";
-		};
-		6A844C782136669500E01116 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				6A844C792136669500E01116 /* frameworks */,
-			);
-			path = Frameworks;
-			sourceTree = "<group>";
-		};
-		6A844C792136669500E01116 /* frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				6A844C7A2136669500E01116 /* GoogleNetworkingUtilities.framework */,
-			);
-			path = frameworks;
-			sourceTree = "<group>";
-		};
-		6A844C7B2136669900E01116 /* GoogleMobileVision-1.1.0 */ = {
-			isa = PBXGroup;
-			children = (
-				6A844C7C2136669900E01116 /* FaceDetector */,
-				6A844C872136669900E01116 /* Detector */,
-				6A844C8C2136669900E01116 /* MVDataOutput */,
+				6AFE909521366E3900DC8D80 /* FaceDetector */,
+				6AFE90A021366E3900DC8D80 /* Detector */,
+				6AFE90A521366E3900DC8D80 /* MVDataOutput */,
 			);
 			path = "GoogleMobileVision-1.1.0";
 			sourceTree = "<group>";
 		};
-		6A844C7C2136669900E01116 /* FaceDetector */ = {
+		6AFE909521366E3900DC8D80 /* FaceDetector */ = {
 			isa = PBXGroup;
 			children = (
-				6A844C7D2136669900E01116 /* Resources */,
-				6A844C842136669900E01116 /* Frameworks */,
+				6AFE909621366E3900DC8D80 /* Resources */,
+				6AFE909D21366E3900DC8D80 /* Frameworks */,
 			);
 			path = FaceDetector;
 			sourceTree = "<group>";
 		};
-		6A844C7D2136669900E01116 /* Resources */ = {
+		6AFE909621366E3900DC8D80 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				6A844C7E2136669900E01116 /* BCLlefteyeclosed_200.emd */,
-				6A844C7F2136669900E01116 /* BCLjoy_100.emd */,
-				6A844C802136669900E01116 /* MFTprec_202.emd */,
-				6A844C812136669900E01116 /* PFFprec_702.emd */,
-				6A844C822136669900E01116 /* LMprec_600.emd */,
-				6A844C832136669900E01116 /* BCLrighteyeclosed_200.emd */,
+				6AFE909721366E3900DC8D80 /* BCLlefteyeclosed_200.emd */,
+				6AFE909821366E3900DC8D80 /* BCLjoy_100.emd */,
+				6AFE909921366E3900DC8D80 /* MFTprec_202.emd */,
+				6AFE909A21366E3900DC8D80 /* PFFprec_702.emd */,
+				6AFE909B21366E3900DC8D80 /* LMprec_600.emd */,
+				6AFE909C21366E3900DC8D80 /* BCLrighteyeclosed_200.emd */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
 		};
-		6A844C842136669900E01116 /* Frameworks */ = {
+		6AFE909D21366E3900DC8D80 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				6A844C852136669900E01116 /* frameworks */,
+				6AFE909E21366E3900DC8D80 /* frameworks */,
 			);
 			path = Frameworks;
 			sourceTree = "<group>";
 		};
-		6A844C852136669900E01116 /* frameworks */ = {
+		6AFE909E21366E3900DC8D80 /* frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				6A844C862136669900E01116 /* FaceDetector.framework */,
+				6AFE909F21366E3900DC8D80 /* FaceDetector.framework */,
 			);
 			path = frameworks;
 			sourceTree = "<group>";
 		};
-		6A844C872136669900E01116 /* Detector */ = {
+		6AFE90A021366E3900DC8D80 /* Detector */ = {
 			isa = PBXGroup;
 			children = (
-				6A844C882136669900E01116 /* dummy.txt */,
-				6A844C892136669900E01116 /* Frameworks */,
+				6AFE90A121366E3900DC8D80 /* dummy.txt */,
+				6AFE90A221366E3900DC8D80 /* Frameworks */,
 			);
 			path = Detector;
 			sourceTree = "<group>";
 		};
-		6A844C892136669900E01116 /* Frameworks */ = {
+		6AFE90A221366E3900DC8D80 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				6A844C8A2136669900E01116 /* frameworks */,
+				6AFE90A321366E3900DC8D80 /* frameworks */,
 			);
 			path = Frameworks;
 			sourceTree = "<group>";
 		};
-		6A844C8A2136669900E01116 /* frameworks */ = {
+		6AFE90A321366E3900DC8D80 /* frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				6A844C8B2136669900E01116 /* GoogleMobileVision.framework */,
+				6AFE90A421366E3900DC8D80 /* GoogleMobileVision.framework */,
 			);
 			path = frameworks;
 			sourceTree = "<group>";
 		};
-		6A844C8C2136669900E01116 /* MVDataOutput */ = {
+		6AFE90A521366E3900DC8D80 /* MVDataOutput */ = {
 			isa = PBXGroup;
 			children = (
-				6A844C8D2136669900E01116 /* dummy.txt */,
-				6A844C8E2136669900E01116 /* Frameworks */,
+				6AFE90A621366E3900DC8D80 /* dummy.txt */,
+				6AFE90A721366E3900DC8D80 /* Frameworks */,
 			);
 			path = MVDataOutput;
 			sourceTree = "<group>";
 		};
-		6A844C8E2136669900E01116 /* Frameworks */ = {
+		6AFE90A721366E3900DC8D80 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				6A844C8F2136669900E01116 /* frameworks */,
+				6AFE90A821366E3900DC8D80 /* frameworks */,
 			);
 			path = Frameworks;
 			sourceTree = "<group>";
 		};
-		6A844C8F2136669900E01116 /* frameworks */ = {
+		6AFE90A821366E3900DC8D80 /* frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				6A844C902136669900E01116 /* GoogleMVDataOutput.framework */,
+				6AFE90A921366E3900DC8D80 /* GoogleMVDataOutput.framework */,
 			);
 			path = frameworks;
 			sourceTree = "<group>";
 		};
-		6A844C912136669A00E01116 /* GoogleInterchangeUtilities-1.2.2 */ = {
+		6AFE90AA21366E3900DC8D80 /* GoogleUtilities-1.3.2 */ = {
 			isa = PBXGroup;
 			children = (
-				6A844C922136669A00E01116 /* dummy.txt */,
-				6A844C932136669A00E01116 /* Frameworks */,
+				6AFE90AB21366E3900DC8D80 /* dummy.txt */,
+				6AFE90AC21366E3900DC8D80 /* Frameworks */,
 			);
-			path = "GoogleInterchangeUtilities-1.2.2";
+			path = "GoogleUtilities-1.3.2";
 			sourceTree = "<group>";
 		};
-		6A844C932136669A00E01116 /* Frameworks */ = {
+		6AFE90AC21366E3900DC8D80 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				6A844C942136669A00E01116 /* frameworks */,
+				6AFE90AD21366E3900DC8D80 /* frameworks */,
 			);
 			path = Frameworks;
 			sourceTree = "<group>";
 		};
-		6A844C942136669A00E01116 /* frameworks */ = {
+		6AFE90AD21366E3900DC8D80 /* frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				6A844C952136669B00E01116 /* GoogleInterchangeUtilities.framework */,
+				6AFE90AE21366E3900DC8D80 /* GoogleUtilities.framework */,
+			);
+			path = frameworks;
+			sourceTree = "<group>";
+		};
+		6AFE90AF21366E3900DC8D80 /* dbffca986f6337f8-GoogleSymbolUtilities-1.1.1 2 */ = {
+			isa = PBXGroup;
+			children = (
+				6AFE90B021366E3900DC8D80 /* dummy.txt */,
+				6AFE90B121366E3900DC8D80 /* Frameworks */,
+			);
+			path = "dbffca986f6337f8-GoogleSymbolUtilities-1.1.1 2";
+			sourceTree = "<group>";
+		};
+		6AFE90B121366E3900DC8D80 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6AFE90B221366E3900DC8D80 /* GoogleSymbolUtilities.framework */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+		6AFE90B321366E3900DC8D80 /* GoogleInterchangeUtilities-1.2.2 */ = {
+			isa = PBXGroup;
+			children = (
+				6AFE90B421366E3900DC8D80 /* dummy.txt */,
+				6AFE90B521366E3900DC8D80 /* Frameworks */,
+			);
+			path = "GoogleInterchangeUtilities-1.2.2";
+			sourceTree = "<group>";
+		};
+		6AFE90B521366E3900DC8D80 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6AFE90B621366E3900DC8D80 /* frameworks */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+		6AFE90B621366E3900DC8D80 /* frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6AFE90B721366E3900DC8D80 /* GoogleInterchangeUtilities.framework */,
+			);
+			path = frameworks;
+			sourceTree = "<group>";
+		};
+		6AFE90B821366E3900DC8D80 /* GoogleNetworkingUtilities-1.2.2 */ = {
+			isa = PBXGroup;
+			children = (
+				6AFE90B921366E3900DC8D80 /* dummy.txt */,
+				6AFE90BA21366E3900DC8D80 /* Frameworks */,
+			);
+			path = "GoogleNetworkingUtilities-1.2.2";
+			sourceTree = "<group>";
+		};
+		6AFE90BA21366E3900DC8D80 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6AFE90BB21366E3900DC8D80 /* frameworks */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+		6AFE90BB21366E3900DC8D80 /* frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6AFE90BC21366E3900DC8D80 /* GoogleNetworkingUtilities.framework */,
 			);
 			path = frameworks;
 			sourceTree = "<group>";
@@ -857,6 +884,7 @@
 				832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */,
 				00C302DF1ABCB9EE00DB3ED1 /* RCTVibration.xcodeproj */,
 				139FDEE61B06529A00C62182 /* RCTWebSocket.xcodeproj */,
+				2C5DC1E046C2473DACA1C501 /* FastImage.xcodeproj */,
 			);
 			name = Libraries;
 			sourceTree = "<group>";
@@ -879,6 +907,7 @@
 				00E356EF1AD99517003FC87E /* ManhuntTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				6A14615821366C2900C3F07A /* Recovered References */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -986,7 +1015,7 @@
 		83CBB9F71A601CBA00E9B192 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0610;
+				LastUpgradeCheck = 610;
 				ORGANIZATIONNAME = Facebook;
 				TargetAttributes = {
 					00E356ED1AD99517003FC87E = {
@@ -1020,6 +1049,10 @@
 			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
 			projectDirPath = "";
 			projectReferences = (
+				{
+					ProductGroup = 6A14618021366C2B00C3F07A /* Products */;
+					ProjectRef = 2C5DC1E046C2473DACA1C501 /* FastImage.xcodeproj */;
+				},
 				{
 					ProductGroup = 00C302A81ABCB8CE00DB3ED1 /* Products */;
 					ProjectRef = 00C302A71ABCB8CE00DB3ED1 /* RCTActionSheet.xcodeproj */;
@@ -1322,6 +1355,13 @@
 			remoteRef = 5E9157341DD0AC6500FF2AA8 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
+		6A14618421366C2C00C3F07A /* libFastImage.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libFastImage.a;
+			remoteRef = 6A14618321366C2C00C3F07A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 		6A74E4A42133EF7F0059621F /* libRNCamera.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
@@ -1357,18 +1397,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6A844C972136669B00E01116 /* dummy.txt in Resources */,
-				6A844CA72136669B00E01116 /* MFTprec_202.emd in Resources */,
-				6A844CAD2136669B00E01116 /* BCLrighteyeclosed_200.emd in Resources */,
-				6A844CAB2136669B00E01116 /* LMprec_600.emd in Resources */,
-				6A844C9F2136669B00E01116 /* dummy.txt in Resources */,
-				6A844CA52136669B00E01116 /* BCLjoy_100.emd in Resources */,
-				6A844CA32136669B00E01116 /* BCLlefteyeclosed_200.emd in Resources */,
-				6A844CB92136669B00E01116 /* dummy.txt in Resources */,
-				6A844CB52136669B00E01116 /* dummy.txt in Resources */,
-				6A844CB12136669B00E01116 /* dummy.txt in Resources */,
-				6A844CA92136669B00E01116 /* PFFprec_702.emd in Resources */,
-				6A844C9B2136669B00E01116 /* dummy.txt in Resources */,
+				6AFE90CC21366E3A00DC8D80 /* dummy.txt in Resources */,
+				6AFE90C621366E3A00DC8D80 /* LMprec_600.emd in Resources */,
+				6AFE90BE21366E3A00DC8D80 /* BCLlefteyeclosed_200.emd in Resources */,
+				6AFE90D021366E3A00DC8D80 /* dummy.txt in Resources */,
+				6AFE90C821366E3A00DC8D80 /* BCLrighteyeclosed_200.emd in Resources */,
+				6AFE90C421366E3A00DC8D80 /* PFFprec_702.emd in Resources */,
+				6AFE90C221366E3A00DC8D80 /* MFTprec_202.emd in Resources */,
+				6AFE90E021366E3A00DC8D80 /* dummy.txt in Resources */,
+				6AFE90DC21366E3A00DC8D80 /* dummy.txt in Resources */,
+				6AFE90D821366E3A00DC8D80 /* dummy.txt in Resources */,
+				6AFE90D421366E3A00DC8D80 /* dummy.txt in Resources */,
+				6AFE90C021366E3A00DC8D80 /* BCLjoy_100.emd in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1376,20 +1416,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6A844CAA2136669B00E01116 /* LMprec_600.emd in Resources */,
+				6AFE90C121366E3A00DC8D80 /* MFTprec_202.emd in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
-				6A844C962136669B00E01116 /* dummy.txt in Resources */,
-				6A844C9E2136669B00E01116 /* dummy.txt in Resources */,
-				6A844CA82136669B00E01116 /* PFFprec_702.emd in Resources */,
-				6A844CAC2136669B00E01116 /* BCLrighteyeclosed_200.emd in Resources */,
-				6A844CA42136669B00E01116 /* BCLjoy_100.emd in Resources */,
-				6A844CB82136669B00E01116 /* dummy.txt in Resources */,
-				6A844CB02136669B00E01116 /* dummy.txt in Resources */,
+				6AFE90C721366E3A00DC8D80 /* BCLrighteyeclosed_200.emd in Resources */,
+				6AFE90BF21366E3A00DC8D80 /* BCLjoy_100.emd in Resources */,
+				6AFE90C521366E3A00DC8D80 /* LMprec_600.emd in Resources */,
+				6AFE90C321366E3A00DC8D80 /* PFFprec_702.emd in Resources */,
+				6AFE90BD21366E3A00DC8D80 /* BCLlefteyeclosed_200.emd in Resources */,
+				6AFE90DF21366E3A00DC8D80 /* dummy.txt in Resources */,
+				6AFE90D721366E3A00DC8D80 /* dummy.txt in Resources */,
+				6AFE90D321366E3A00DC8D80 /* dummy.txt in Resources */,
+				6AFE90CF21366E3A00DC8D80 /* dummy.txt in Resources */,
+				6AFE90DB21366E3A00DC8D80 /* dummy.txt in Resources */,
+				6AFE90CB21366E3A00DC8D80 /* dummy.txt in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
-				6A844CA22136669B00E01116 /* BCLlefteyeclosed_200.emd in Resources */,
-				6A844CB42136669B00E01116 /* dummy.txt in Resources */,
-				6A844C9A2136669B00E01116 /* dummy.txt in Resources */,
-				6A844CA62136669B00E01116 /* MFTprec_202.emd in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1533,14 +1573,23 @@
 					"$(PROJECT_DIR)/Frameworks/GoogleMobileVision-1.1.0/MVDataOutput/Frameworks/frameworks",
 					"$(PROJECT_DIR)/Frameworks/GoogleInterchangeUtilities-1.2.2/Frameworks/frameworks",
 					"$(PROJECT_DIR)/Frameworks/dbffca986f6337f8-GoogleSymbolUtilities-1.1.1\\ 2/Frameworks",
+					"$(PROJECT_DIR)/Frameworks/dbffca986f6337f8-GoogleSymbolUtilities-1.1.1\\ 2/Frameworks",
 				);
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../node_modules/react-native-fast-image/ios/FastImage/**",
+				);
 				INFOPLIST_FILE = ManhuntTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+				);
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-lc++",
@@ -1581,10 +1630,19 @@
 					"$(PROJECT_DIR)/Frameworks/GoogleMobileVision-1.1.0/MVDataOutput/Frameworks/frameworks",
 					"$(PROJECT_DIR)/Frameworks/GoogleInterchangeUtilities-1.2.2/Frameworks/frameworks",
 					"$(PROJECT_DIR)/Frameworks/dbffca986f6337f8-GoogleSymbolUtilities-1.1.1\\ 2/Frameworks",
+					"$(PROJECT_DIR)/Frameworks/dbffca986f6337f8-GoogleSymbolUtilities-1.1.1\\ 2/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../node_modules/react-native-fast-image/ios/FastImage/**",
 				);
 				INFOPLIST_FILE = ManhuntTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+				);
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-lc++",
@@ -1626,6 +1684,11 @@
 					"$(PROJECT_DIR)/Frameworks/GoogleMobileVision-1.1.0/MVDataOutput/Frameworks/frameworks",
 					"$(PROJECT_DIR)/Frameworks/GoogleInterchangeUtilities-1.2.2/Frameworks/frameworks",
 					"$(PROJECT_DIR)/Frameworks/dbffca986f6337f8-GoogleSymbolUtilities-1.1.1\\ 2/Frameworks",
+					"$(PROJECT_DIR)/Frameworks/dbffca986f6337f8-GoogleSymbolUtilities-1.1.1\\ 2/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../node_modules/react-native-fast-image/ios/FastImage/**",
 				);
 				INFOPLIST_FILE = Manhunt/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -1670,6 +1733,11 @@
 					"$(PROJECT_DIR)/Frameworks/GoogleMobileVision-1.1.0/MVDataOutput/Frameworks/frameworks",
 					"$(PROJECT_DIR)/Frameworks/GoogleInterchangeUtilities-1.2.2/Frameworks/frameworks",
 					"$(PROJECT_DIR)/Frameworks/dbffca986f6337f8-GoogleSymbolUtilities-1.1.1\\ 2/Frameworks",
+					"$(PROJECT_DIR)/Frameworks/dbffca986f6337f8-GoogleSymbolUtilities-1.1.1\\ 2/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../node_modules/react-native-fast-image/ios/FastImage/**",
 				);
 				INFOPLIST_FILE = Manhunt/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -1696,8 +1764,16 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../node_modules/react-native-fast-image/ios/FastImage/**",
+				);
 				INFOPLIST_FILE = "Manhunt-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+				);
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-lc++",
@@ -1722,8 +1798,16 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../node_modules/react-native-fast-image/ios/FastImage/**",
+				);
 				INFOPLIST_FILE = "Manhunt-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+				);
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-lc++",
@@ -1747,8 +1831,16 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../node_modules/react-native-fast-image/ios/FastImage/**",
+				);
 				INFOPLIST_FILE = "Manhunt-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+				);
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-lc++",
@@ -1772,8 +1864,16 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../node_modules/react-native-fast-image/ios/FastImage/**",
+				);
 				INFOPLIST_FILE = "Manhunt-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+				);
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-lc++",

@@ -10,7 +10,7 @@ import icoMoonConfig from './selection.json';
 const TabBarIcon = createIconSetFromIcoMoon(icoMoonConfig);
 
 import DebugActions from './Content/Pages/DebugActions.js';
-// import MapTest from './Content/Pages/MapTest.js';
+import Dashboard from './Content/Pages/Dashboard.js';
 import Feed from './Content/Pages/Feed.js';
 import CameraPage from './Content/Pages/Camera.js';
 
@@ -22,7 +22,7 @@ class App extends React.Component {
   }
 
   state = {
-    SwiperIndex: 0,
+    SwiperIndex: 2,
     SwiperShowsButtons: false,
     SwiperPrevButton: <View></View>,
     SwiperNextButton: <View></View>
@@ -33,7 +33,7 @@ class App extends React.Component {
       <Swiper ref={component => this.swiper = component} index={this.state.SwiperIndex} onIndexChange={(idx) => this.setState({SwiperIndex: idx})} loop={false} showsButtons={this.state.SwiperShowsButtons} prevButton={this.state.SwiperPrevButton} nextButton={this.state.SwiperNextButton} showsPagination={false}>
         <Feed parent={this}/>
         <CameraPage parent={this}/>
-        <DebugActions parent={this}/>
+        <Dashboard parent={this}/>
       </Swiper>
     )
   }
