@@ -5,7 +5,7 @@ import autoBind from 'react-autobind'
 
 import ScalableImage from 'react-native-scalable-image';
 import SOCButton from './SOCButton.js'
-// import SvgUri from 'react-native-svg-uri'
+import Delta from './Delta.js'
 
 export default class FeedPost extends Component {
 
@@ -31,8 +31,8 @@ export default class FeedPost extends Component {
             <Text style={FeedPostStyles.MainText}>Cole got <Image style={FeedPostStyles.Verb} source={require('../Assets/Images/Verbs/Snatched.png')}/> by Jack</Text>
             <View style={FeedPostStyles.BottomSection}>
               <Text style={FeedPostStyles.Timestamp}>August 21st, 7:32pm</Text>
-              <View style={FeedPostStyles.Delta}>
-                <Text style={FeedPostStyles.DeltaText}>+5</Text>
+              <View style={FeedPostStyles.DeltaContainer}>
+                <Delta Value={5}/>
               </View>
             </View>
           </View>

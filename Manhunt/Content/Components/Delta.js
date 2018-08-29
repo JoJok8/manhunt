@@ -14,18 +14,19 @@ export default class Delta extends Component {
   componentWillMount(){
     this.setState({Value: this.props.Value})
     if(this.props.Value > 0){
-      this.setState({Color: '#70FF57'})
+      this.setState({Color: '#70FF57', Plus: '+'})
     }
   }
 
   state = {
-    Color: '#FF5757'
+    Color: '#FF5757',
+    Plus: ''
   }
 
   render() {
     return (
       <View style={[DeltaStyles.Container, {backgroundColor: this.state.Color}]}>
-        <Text style={DeltaStyles.Text}>{this.state.Value}</Text>
+        <Text style={DeltaStyles.Text}>{this.state.Plus + this.state.Value}</Text>
       </View>
     );
   }
@@ -37,8 +38,8 @@ const DeltaStyles = StyleSheet.create({
     borderRadius: 4
   },
   Text: {
-    marginHorizontal: 10,
-    marginVertical: 5,
+    marginHorizontal: 5,
+    marginVertical: 3,
     fontFamily: 'Courier',
     color: 'white',
     fontWeight: '900',
