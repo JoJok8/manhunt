@@ -21,6 +21,10 @@ export default class Camera extends Component {
     this.props.parent.swiper.scrollBy(1)
   }
 
+  TakePhoto(){
+
+  }
+
   OnFacesDetected(e){
     console.log(e.faces)
   }
@@ -45,9 +49,9 @@ export default class Camera extends Component {
         <SOCButton onPress={this.ToFeed} ShrinkCoefficient={6}>
           <Image style={CameraStyles.FeedIcon} source={require('../Assets/Images/CameraPageFeedIcon.png')} shadowColor="rgb(0,0,0)" shadowOffset={{width: 0, height: 0}} shadowOpacity={0.3} shadowRadius={4}/>
         </SOCButton>
-        {/*<SOCButton onPress={this.ToFeed} ShrinkCoefficient={6}>
-          <Image style={CameraStyles.TakeIcon} source={require('../Assets/Images/CameraPageFeedIcon.png')} shadowColor="rgb(0,0,0)" shadowOffset={{width: 0, height: 0}} shadowOpacity={0.3} shadowRadius={4}/>
-        </SOCButton>*/}
+        <SOCButton onPress={this.TakePhoto} ShrinkCoefficient={6}>
+          <Image style={CameraStyles.TakeIcon} source={require('../Assets/Images/Take.png')} shadowColor="rgb(0,0,0)" shadowOffset={{width: 0, height: 0}} shadowOpacity={0.3} shadowRadius={4}/>
+        </SOCButton>
         <SOCButton onPress={this.ToDashboard} ShrinkCoefficient={6}>
           <Image style={CameraStyles.DashboardIcon} source={require('../Assets/Images/CameraPageDashboardIcon.png')} shadowColor="rgb(0,0,0)" shadowOffset={{width: 0, height: 0}} shadowOpacity={0.3} shadowRadius={4}/>
         </SOCButton>
@@ -65,7 +69,6 @@ const CameraStyles = StyleSheet.create({
   BottomSection: {
     width: '100%',
     height: 60,
-    // backgroundColor: 'blue',
     position: 'absolute',
     bottom: 20,
     flexDirection: 'row',
@@ -79,5 +82,9 @@ const CameraStyles = StyleSheet.create({
   FeedIcon: {
     resizeMode: 'contain',
     height: 35,
+  },
+  TakeIcon: {
+    resizeMode: 'contain',
+    height: 60,
   }
 });

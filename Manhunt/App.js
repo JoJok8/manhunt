@@ -11,7 +11,7 @@ const TabBarIcon = createIconSetFromIcoMoon(icoMoonConfig);
 
 import DebugActions from './Content/Pages/DebugActions.js';
 // import MapTest from './Content/Pages/MapTest.js';
-import IT_Feed from './Content/Pages/IT_Feed.js';
+import Feed from './Content/Pages/Feed.js';
 import CameraPage from './Content/Pages/Camera.js';
 
 class App extends React.Component {
@@ -31,7 +31,7 @@ class App extends React.Component {
   render() {
     return (
       <Swiper ref={component => this.swiper = component} index={this.state.SwiperIndex} onIndexChange={(idx) => this.setState({SwiperIndex: idx})} loop={false} showsButtons={this.state.SwiperShowsButtons} prevButton={this.state.SwiperPrevButton} nextButton={this.state.SwiperNextButton} showsPagination={false}>
-        <IT_Feed parent={this}/>
+        <Feed parent={this}/>
         <CameraPage parent={this}/>
         <DebugActions parent={this}/>
       </Swiper>
