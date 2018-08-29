@@ -38,46 +38,46 @@
 		5E9157361DD0AC6A00FF2AA8 /* libRCTAnimation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E9157331DD0AC6500FF2AA8 /* libRCTAnimation.a */; };
 		6A74E4A52133EF8C0059621F /* libRNCamera.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A74E4A42133EF7F0059621F /* libRNCamera.a */; };
 		6A74E4A62133EF930059621F /* libRNCamera.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A74E4A42133EF7F0059621F /* libRNCamera.a */; };
-		6A74E4D12133EFC90059621F /* dummy.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6A74E4A92133EFBC0059621F /* dummy.txt */; };
-		6A74E4D22133EFC90059621F /* dummy.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6A74E4A92133EFBC0059621F /* dummy.txt */; };
-		6A74E4D32133EFC90059621F /* GoogleSymbolUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A74E4AB2133EFBC0059621F /* GoogleSymbolUtilities.framework */; };
-		6A74E4D42133EFC90059621F /* GoogleSymbolUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A74E4AB2133EFBC0059621F /* GoogleSymbolUtilities.framework */; };
-		6A74E4D52133EFC90059621F /* dummy.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6A74E4AD2133EFBE0059621F /* dummy.txt */; };
-		6A74E4D62133EFC90059621F /* dummy.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6A74E4AD2133EFBE0059621F /* dummy.txt */; };
-		6A74E4D72133EFC90059621F /* GoogleUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A74E4B02133EFBE0059621F /* GoogleUtilities.framework */; };
-		6A74E4D82133EFC90059621F /* GoogleUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A74E4B02133EFBE0059621F /* GoogleUtilities.framework */; };
-		6A74E4D92133EFC90059621F /* dummy.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6A74E4B22133EFC10059621F /* dummy.txt */; };
-		6A74E4DA2133EFC90059621F /* dummy.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6A74E4B22133EFC10059621F /* dummy.txt */; };
-		6A74E4DB2133EFC90059621F /* GoogleNetworkingUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A74E4B52133EFC10059621F /* GoogleNetworkingUtilities.framework */; };
-		6A74E4DC2133EFC90059621F /* GoogleNetworkingUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A74E4B52133EFC10059621F /* GoogleNetworkingUtilities.framework */; };
-		6A74E4DD2133EFC90059621F /* BCLlefteyeclosed_200.emd in Resources */ = {isa = PBXBuildFile; fileRef = 6A74E4B92133EFC70059621F /* BCLlefteyeclosed_200.emd */; };
-		6A74E4DE2133EFC90059621F /* BCLlefteyeclosed_200.emd in Resources */ = {isa = PBXBuildFile; fileRef = 6A74E4B92133EFC70059621F /* BCLlefteyeclosed_200.emd */; };
-		6A74E4DF2133EFC90059621F /* BCLjoy_100.emd in Resources */ = {isa = PBXBuildFile; fileRef = 6A74E4BA2133EFC70059621F /* BCLjoy_100.emd */; };
-		6A74E4E02133EFC90059621F /* BCLjoy_100.emd in Resources */ = {isa = PBXBuildFile; fileRef = 6A74E4BA2133EFC70059621F /* BCLjoy_100.emd */; };
-		6A74E4E12133EFC90059621F /* MFTprec_202.emd in Resources */ = {isa = PBXBuildFile; fileRef = 6A74E4BB2133EFC70059621F /* MFTprec_202.emd */; };
-		6A74E4E22133EFC90059621F /* MFTprec_202.emd in Resources */ = {isa = PBXBuildFile; fileRef = 6A74E4BB2133EFC70059621F /* MFTprec_202.emd */; };
-		6A74E4E32133EFC90059621F /* PFFprec_702.emd in Resources */ = {isa = PBXBuildFile; fileRef = 6A74E4BC2133EFC70059621F /* PFFprec_702.emd */; };
-		6A74E4E42133EFC90059621F /* PFFprec_702.emd in Resources */ = {isa = PBXBuildFile; fileRef = 6A74E4BC2133EFC70059621F /* PFFprec_702.emd */; };
-		6A74E4E52133EFC90059621F /* LMprec_600.emd in Resources */ = {isa = PBXBuildFile; fileRef = 6A74E4BD2133EFC70059621F /* LMprec_600.emd */; };
-		6A74E4E62133EFC90059621F /* LMprec_600.emd in Resources */ = {isa = PBXBuildFile; fileRef = 6A74E4BD2133EFC70059621F /* LMprec_600.emd */; };
-		6A74E4E72133EFC90059621F /* BCLrighteyeclosed_200.emd in Resources */ = {isa = PBXBuildFile; fileRef = 6A74E4BE2133EFC70059621F /* BCLrighteyeclosed_200.emd */; };
-		6A74E4E82133EFC90059621F /* BCLrighteyeclosed_200.emd in Resources */ = {isa = PBXBuildFile; fileRef = 6A74E4BE2133EFC70059621F /* BCLrighteyeclosed_200.emd */; };
-		6A74E4E92133EFC90059621F /* FaceDetector.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A74E4C12133EFC70059621F /* FaceDetector.framework */; };
-		6A74E4EA2133EFC90059621F /* FaceDetector.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A74E4C12133EFC70059621F /* FaceDetector.framework */; };
-		6A74E4EB2133EFC90059621F /* dummy.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6A74E4C32133EFC70059621F /* dummy.txt */; };
-		6A74E4EC2133EFC90059621F /* dummy.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6A74E4C32133EFC70059621F /* dummy.txt */; };
-		6A74E4ED2133EFC90059621F /* GoogleMobileVision.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A74E4C62133EFC70059621F /* GoogleMobileVision.framework */; };
-		6A74E4EE2133EFC90059621F /* GoogleMobileVision.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A74E4C62133EFC70059621F /* GoogleMobileVision.framework */; };
-		6A74E4EF2133EFC90059621F /* dummy.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6A74E4C82133EFC70059621F /* dummy.txt */; };
-		6A74E4F02133EFC90059621F /* dummy.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6A74E4C82133EFC70059621F /* dummy.txt */; };
-		6A74E4F12133EFC90059621F /* GoogleMVDataOutput.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A74E4CB2133EFC70059621F /* GoogleMVDataOutput.framework */; };
-		6A74E4F22133EFC90059621F /* GoogleMVDataOutput.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A74E4CB2133EFC70059621F /* GoogleMVDataOutput.framework */; };
-		6A74E4F32133EFC90059621F /* dummy.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6A74E4CD2133EFC90059621F /* dummy.txt */; };
-		6A74E4F42133EFC90059621F /* dummy.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6A74E4CD2133EFC90059621F /* dummy.txt */; };
-		6A74E4F52133EFC90059621F /* GoogleInterchangeUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A74E4D02133EFC90059621F /* GoogleInterchangeUtilities.framework */; };
-		6A74E4F62133EFC90059621F /* GoogleInterchangeUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A74E4D02133EFC90059621F /* GoogleInterchangeUtilities.framework */; };
-		6A74E4F82133EFFC0059621F /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A74E4F72133EFFB0059621F /* AddressBook.framework */; };
-		6A74E4F92133F0040059621F /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A74E4F72133EFFB0059621F /* AddressBook.framework */; };
+		6A844C962136669B00E01116 /* dummy.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6A844C6E2136669200E01116 /* dummy.txt */; };
+		6A844C972136669B00E01116 /* dummy.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6A844C6E2136669200E01116 /* dummy.txt */; };
+		6A844C9A2136669B00E01116 /* dummy.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6A844C722136669300E01116 /* dummy.txt */; };
+		6A844C9B2136669B00E01116 /* dummy.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6A844C722136669300E01116 /* dummy.txt */; };
+		6A844C9C2136669B00E01116 /* GoogleUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A844C752136669300E01116 /* GoogleUtilities.framework */; };
+		6A844C9D2136669B00E01116 /* GoogleUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A844C752136669300E01116 /* GoogleUtilities.framework */; };
+		6A844C9E2136669B00E01116 /* dummy.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6A844C772136669500E01116 /* dummy.txt */; };
+		6A844C9F2136669B00E01116 /* dummy.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6A844C772136669500E01116 /* dummy.txt */; };
+		6A844CA02136669B00E01116 /* GoogleNetworkingUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A844C7A2136669500E01116 /* GoogleNetworkingUtilities.framework */; };
+		6A844CA12136669B00E01116 /* GoogleNetworkingUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A844C7A2136669500E01116 /* GoogleNetworkingUtilities.framework */; };
+		6A844CA22136669B00E01116 /* BCLlefteyeclosed_200.emd in Resources */ = {isa = PBXBuildFile; fileRef = 6A844C7E2136669900E01116 /* BCLlefteyeclosed_200.emd */; };
+		6A844CA32136669B00E01116 /* BCLlefteyeclosed_200.emd in Resources */ = {isa = PBXBuildFile; fileRef = 6A844C7E2136669900E01116 /* BCLlefteyeclosed_200.emd */; };
+		6A844CA42136669B00E01116 /* BCLjoy_100.emd in Resources */ = {isa = PBXBuildFile; fileRef = 6A844C7F2136669900E01116 /* BCLjoy_100.emd */; };
+		6A844CA52136669B00E01116 /* BCLjoy_100.emd in Resources */ = {isa = PBXBuildFile; fileRef = 6A844C7F2136669900E01116 /* BCLjoy_100.emd */; };
+		6A844CA62136669B00E01116 /* MFTprec_202.emd in Resources */ = {isa = PBXBuildFile; fileRef = 6A844C802136669900E01116 /* MFTprec_202.emd */; };
+		6A844CA72136669B00E01116 /* MFTprec_202.emd in Resources */ = {isa = PBXBuildFile; fileRef = 6A844C802136669900E01116 /* MFTprec_202.emd */; };
+		6A844CA82136669B00E01116 /* PFFprec_702.emd in Resources */ = {isa = PBXBuildFile; fileRef = 6A844C812136669900E01116 /* PFFprec_702.emd */; };
+		6A844CA92136669B00E01116 /* PFFprec_702.emd in Resources */ = {isa = PBXBuildFile; fileRef = 6A844C812136669900E01116 /* PFFprec_702.emd */; };
+		6A844CAA2136669B00E01116 /* LMprec_600.emd in Resources */ = {isa = PBXBuildFile; fileRef = 6A844C822136669900E01116 /* LMprec_600.emd */; };
+		6A844CAB2136669B00E01116 /* LMprec_600.emd in Resources */ = {isa = PBXBuildFile; fileRef = 6A844C822136669900E01116 /* LMprec_600.emd */; };
+		6A844CAC2136669B00E01116 /* BCLrighteyeclosed_200.emd in Resources */ = {isa = PBXBuildFile; fileRef = 6A844C832136669900E01116 /* BCLrighteyeclosed_200.emd */; };
+		6A844CAD2136669B00E01116 /* BCLrighteyeclosed_200.emd in Resources */ = {isa = PBXBuildFile; fileRef = 6A844C832136669900E01116 /* BCLrighteyeclosed_200.emd */; };
+		6A844CAE2136669B00E01116 /* FaceDetector.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A844C862136669900E01116 /* FaceDetector.framework */; };
+		6A844CAF2136669B00E01116 /* FaceDetector.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A844C862136669900E01116 /* FaceDetector.framework */; };
+		6A844CB02136669B00E01116 /* dummy.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6A844C882136669900E01116 /* dummy.txt */; };
+		6A844CB12136669B00E01116 /* dummy.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6A844C882136669900E01116 /* dummy.txt */; };
+		6A844CB22136669B00E01116 /* GoogleMobileVision.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A844C8B2136669900E01116 /* GoogleMobileVision.framework */; };
+		6A844CB32136669B00E01116 /* GoogleMobileVision.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A844C8B2136669900E01116 /* GoogleMobileVision.framework */; };
+		6A844CB42136669B00E01116 /* dummy.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6A844C8D2136669900E01116 /* dummy.txt */; };
+		6A844CB52136669B00E01116 /* dummy.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6A844C8D2136669900E01116 /* dummy.txt */; };
+		6A844CB62136669B00E01116 /* GoogleMVDataOutput.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A844C902136669900E01116 /* GoogleMVDataOutput.framework */; };
+		6A844CB72136669B00E01116 /* GoogleMVDataOutput.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A844C902136669900E01116 /* GoogleMVDataOutput.framework */; };
+		6A844CB82136669B00E01116 /* dummy.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6A844C922136669A00E01116 /* dummy.txt */; };
+		6A844CB92136669B00E01116 /* dummy.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6A844C922136669A00E01116 /* dummy.txt */; };
+		6A844CBA2136669B00E01116 /* GoogleInterchangeUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A844C952136669B00E01116 /* GoogleInterchangeUtilities.framework */; };
+		6A844CBB2136669B00E01116 /* GoogleInterchangeUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A844C952136669B00E01116 /* GoogleInterchangeUtilities.framework */; };
+		6A844CBD213666A800E01116 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A844CBC213666A800E01116 /* AddressBook.framework */; };
+		6A844CBE213666B300E01116 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A844CBC213666A800E01116 /* AddressBook.framework */; };
+		6A844CBF213666F700E01116 /* GoogleSymbolUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A844C702136669200E01116 /* GoogleSymbolUtilities.framework */; };
+		6A844CC02136670300E01116 /* GoogleSymbolUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A844C702136669200E01116 /* GoogleSymbolUtilities.framework */; };
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
 		ADBDB9381DFEBF1600ED6528 /* libRCTBlob.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ADBDB9271DFEBF0700ED6528 /* libRCTBlob.a */; };
 /* End PBXBuildFile section */
@@ -390,26 +390,26 @@
 		2D16E6891FA4F8E400B85C8A /* libReact.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libReact.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E91572D1DD0AC6500FF2AA8 /* RCTAnimation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTAnimation.xcodeproj; path = "../node_modules/react-native/Libraries/NativeAnimation/RCTAnimation.xcodeproj"; sourceTree = "<group>"; };
 		6A74E47A2133EF7F0059621F /* RNCamera.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RNCamera.xcodeproj; path = "../node_modules/react-native-camera/ios/RNCamera.xcodeproj"; sourceTree = "<group>"; };
-		6A74E4A92133EFBC0059621F /* dummy.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dummy.txt; sourceTree = "<group>"; };
-		6A74E4AB2133EFBC0059621F /* GoogleSymbolUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleSymbolUtilities.framework; sourceTree = "<group>"; };
-		6A74E4AD2133EFBE0059621F /* dummy.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dummy.txt; sourceTree = "<group>"; };
-		6A74E4B02133EFBE0059621F /* GoogleUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleUtilities.framework; sourceTree = "<group>"; };
-		6A74E4B22133EFC10059621F /* dummy.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dummy.txt; sourceTree = "<group>"; };
-		6A74E4B52133EFC10059621F /* GoogleNetworkingUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleNetworkingUtilities.framework; sourceTree = "<group>"; };
-		6A74E4B92133EFC70059621F /* BCLlefteyeclosed_200.emd */ = {isa = PBXFileReference; lastKnownFileType = file; path = BCLlefteyeclosed_200.emd; sourceTree = "<group>"; };
-		6A74E4BA2133EFC70059621F /* BCLjoy_100.emd */ = {isa = PBXFileReference; lastKnownFileType = file; path = BCLjoy_100.emd; sourceTree = "<group>"; };
-		6A74E4BB2133EFC70059621F /* MFTprec_202.emd */ = {isa = PBXFileReference; lastKnownFileType = file; path = MFTprec_202.emd; sourceTree = "<group>"; };
-		6A74E4BC2133EFC70059621F /* PFFprec_702.emd */ = {isa = PBXFileReference; lastKnownFileType = file; path = PFFprec_702.emd; sourceTree = "<group>"; };
-		6A74E4BD2133EFC70059621F /* LMprec_600.emd */ = {isa = PBXFileReference; lastKnownFileType = file; path = LMprec_600.emd; sourceTree = "<group>"; };
-		6A74E4BE2133EFC70059621F /* BCLrighteyeclosed_200.emd */ = {isa = PBXFileReference; lastKnownFileType = file; path = BCLrighteyeclosed_200.emd; sourceTree = "<group>"; };
-		6A74E4C12133EFC70059621F /* FaceDetector.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FaceDetector.framework; sourceTree = "<group>"; };
-		6A74E4C32133EFC70059621F /* dummy.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dummy.txt; sourceTree = "<group>"; };
-		6A74E4C62133EFC70059621F /* GoogleMobileVision.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMobileVision.framework; sourceTree = "<group>"; };
-		6A74E4C82133EFC70059621F /* dummy.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dummy.txt; sourceTree = "<group>"; };
-		6A74E4CB2133EFC70059621F /* GoogleMVDataOutput.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMVDataOutput.framework; sourceTree = "<group>"; };
-		6A74E4CD2133EFC90059621F /* dummy.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dummy.txt; sourceTree = "<group>"; };
-		6A74E4D02133EFC90059621F /* GoogleInterchangeUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleInterchangeUtilities.framework; sourceTree = "<group>"; };
-		6A74E4F72133EFFB0059621F /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		6A844C6E2136669200E01116 /* dummy.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dummy.txt; sourceTree = "<group>"; };
+		6A844C702136669200E01116 /* GoogleSymbolUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleSymbolUtilities.framework; sourceTree = "<group>"; };
+		6A844C722136669300E01116 /* dummy.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dummy.txt; sourceTree = "<group>"; };
+		6A844C752136669300E01116 /* GoogleUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleUtilities.framework; sourceTree = "<group>"; };
+		6A844C772136669500E01116 /* dummy.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dummy.txt; sourceTree = "<group>"; };
+		6A844C7A2136669500E01116 /* GoogleNetworkingUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleNetworkingUtilities.framework; sourceTree = "<group>"; };
+		6A844C7E2136669900E01116 /* BCLlefteyeclosed_200.emd */ = {isa = PBXFileReference; lastKnownFileType = file; path = BCLlefteyeclosed_200.emd; sourceTree = "<group>"; };
+		6A844C7F2136669900E01116 /* BCLjoy_100.emd */ = {isa = PBXFileReference; lastKnownFileType = file; path = BCLjoy_100.emd; sourceTree = "<group>"; };
+		6A844C802136669900E01116 /* MFTprec_202.emd */ = {isa = PBXFileReference; lastKnownFileType = file; path = MFTprec_202.emd; sourceTree = "<group>"; };
+		6A844C812136669900E01116 /* PFFprec_702.emd */ = {isa = PBXFileReference; lastKnownFileType = file; path = PFFprec_702.emd; sourceTree = "<group>"; };
+		6A844C822136669900E01116 /* LMprec_600.emd */ = {isa = PBXFileReference; lastKnownFileType = file; path = LMprec_600.emd; sourceTree = "<group>"; };
+		6A844C832136669900E01116 /* BCLrighteyeclosed_200.emd */ = {isa = PBXFileReference; lastKnownFileType = file; path = BCLrighteyeclosed_200.emd; sourceTree = "<group>"; };
+		6A844C862136669900E01116 /* FaceDetector.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FaceDetector.framework; sourceTree = "<group>"; };
+		6A844C882136669900E01116 /* dummy.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dummy.txt; sourceTree = "<group>"; };
+		6A844C8B2136669900E01116 /* GoogleMobileVision.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMobileVision.framework; sourceTree = "<group>"; };
+		6A844C8D2136669900E01116 /* dummy.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dummy.txt; sourceTree = "<group>"; };
+		6A844C902136669900E01116 /* GoogleMVDataOutput.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMVDataOutput.framework; sourceTree = "<group>"; };
+		6A844C922136669A00E01116 /* dummy.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dummy.txt; sourceTree = "<group>"; };
+		6A844C952136669B00E01116 /* GoogleInterchangeUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleInterchangeUtilities.framework; sourceTree = "<group>"; };
+		6A844CBC213666A800E01116 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
 		ADBDB91F1DFEBF0600ED6528 /* RCTBlob.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTBlob.xcodeproj; path = "../node_modules/react-native/Libraries/Blob/RCTBlob.xcodeproj"; sourceTree = "<group>"; };
@@ -420,16 +420,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6A74E4F92133F0040059621F /* AddressBook.framework in Frameworks */,
-				6A74E4F62133EFC90059621F /* GoogleInterchangeUtilities.framework in Frameworks */,
-				6A74E4DC2133EFC90059621F /* GoogleNetworkingUtilities.framework in Frameworks */,
-				6A74E4EA2133EFC90059621F /* FaceDetector.framework in Frameworks */,
-				6A74E4D42133EFC90059621F /* GoogleSymbolUtilities.framework in Frameworks */,
-				6A74E4F22133EFC90059621F /* GoogleMVDataOutput.framework in Frameworks */,
-				6A74E4EE2133EFC90059621F /* GoogleMobileVision.framework in Frameworks */,
+				6A844CBE213666B300E01116 /* AddressBook.framework in Frameworks */,
+				6A844CBB2136669B00E01116 /* GoogleInterchangeUtilities.framework in Frameworks */,
+				6A844CA12136669B00E01116 /* GoogleNetworkingUtilities.framework in Frameworks */,
+				6A844CAF2136669B00E01116 /* FaceDetector.framework in Frameworks */,
+				6A844CB72136669B00E01116 /* GoogleMVDataOutput.framework in Frameworks */,
+				6A844CB32136669B00E01116 /* GoogleMobileVision.framework in Frameworks */,
 				140ED2AC1D01E1AD002B40FF /* libReact.a in Frameworks */,
-				6A74E4D82133EFC90059621F /* GoogleUtilities.framework in Frameworks */,
+				6A844C9D2136669B00E01116 /* GoogleUtilities.framework in Frameworks */,
 				6A74E4A62133EF930059621F /* libRNCamera.a in Frameworks */,
+				6A844CBF213666F700E01116 /* GoogleSymbolUtilities.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,12 +437,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6A74E4F82133EFFC0059621F /* AddressBook.framework in Frameworks */,
-				6A74E4F52133EFC90059621F /* GoogleInterchangeUtilities.framework in Frameworks */,
+				6A844CBD213666A800E01116 /* AddressBook.framework in Frameworks */,
+				6A844CBA2136669B00E01116 /* GoogleInterchangeUtilities.framework in Frameworks */,
 				ADBDB9381DFEBF1600ED6528 /* libRCTBlob.a in Frameworks */,
-				6A74E4E92133EFC90059621F /* FaceDetector.framework in Frameworks */,
+				6A844CAE2136669B00E01116 /* FaceDetector.framework in Frameworks */,
 				5E9157361DD0AC6A00FF2AA8 /* libRCTAnimation.a in Frameworks */,
-				6A74E4F12133EFC90059621F /* GoogleMVDataOutput.framework in Frameworks */,
+				6A844CB62136669B00E01116 /* GoogleMVDataOutput.framework in Frameworks */,
 				146834051AC3E58100842450 /* libReact.a in Frameworks */,
 				5E9157361DD0AC6A00FF2AA8 /* libRCTAnimation.a in Frameworks */,
 				00C302E51ABCBA2D00DB3ED1 /* libRCTActionSheet.a in Frameworks */,
@@ -453,12 +453,12 @@
 				139105C61AF99C1200B5F7CC /* libRCTSettings.a in Frameworks */,
 				832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */,
 				00C302EA1ABCBA2D00DB3ED1 /* libRCTVibration.a in Frameworks */,
-				6A74E4D32133EFC90059621F /* GoogleSymbolUtilities.framework in Frameworks */,
 				139FDEF61B0652A700C62182 /* libRCTWebSocket.a in Frameworks */,
-				6A74E4D72133EFC90059621F /* GoogleUtilities.framework in Frameworks */,
+				6A844C9C2136669B00E01116 /* GoogleUtilities.framework in Frameworks */,
 				6A74E4A52133EF8C0059621F /* libRNCamera.a in Frameworks */,
-				6A74E4DB2133EFC90059621F /* GoogleNetworkingUtilities.framework in Frameworks */,
-				6A74E4ED2133EFC90059621F /* GoogleMobileVision.framework in Frameworks */,
+				6A844CA02136669B00E01116 /* GoogleNetworkingUtilities.framework in Frameworks */,
+				6A844CB22136669B00E01116 /* GoogleMobileVision.framework in Frameworks */,
+				6A844CC02136670300E01116 /* GoogleSymbolUtilities.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -629,206 +629,205 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		6A74E4A72133EF9D0059621F /* Frameworks */ = {
+		6A844C462136667A00E01116 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				6A74E4F72133EFFB0059621F /* AddressBook.framework */,
-				6A74E4A82133EFBC0059621F /* dbffca986f6337f8-GoogleSymbolUtilities-1.1.1 2 */,
-				6A74E4CC2133EFC90059621F /* GoogleInterchangeUtilities-1.2.2 */,
-				6A74E4B62133EFC70059621F /* GoogleMobileVision-1.1.0 */,
-				6A74E4B12133EFC10059621F /* GoogleNetworkingUtilities-1.2.2 */,
-				6A74E4AC2133EFBE0059621F /* GoogleUtilities-1.3.2 */,
+				6A844CBC213666A800E01116 /* AddressBook.framework */,
+				6A844C6D2136669200E01116 /* dbffca986f6337f8-GoogleSymbolUtilities-1.1.1 2 */,
+				6A844C912136669A00E01116 /* GoogleInterchangeUtilities-1.2.2 */,
+				6A844C7B2136669900E01116 /* GoogleMobileVision-1.1.0 */,
+				6A844C762136669500E01116 /* GoogleNetworkingUtilities-1.2.2 */,
+				6A844C712136669300E01116 /* GoogleUtilities-1.3.2 */,
 			);
-			name = Frameworks;
-			path = "New Group";
+			path = Frameworks;
 			sourceTree = "<group>";
 		};
-		6A74E4A82133EFBC0059621F /* dbffca986f6337f8-GoogleSymbolUtilities-1.1.1 2 */ = {
+		6A844C6D2136669200E01116 /* dbffca986f6337f8-GoogleSymbolUtilities-1.1.1 2 */ = {
 			isa = PBXGroup;
 			children = (
-				6A74E4A92133EFBC0059621F /* dummy.txt */,
-				6A74E4AA2133EFBC0059621F /* Frameworks */,
+				6A844C6E2136669200E01116 /* dummy.txt */,
+				6A844C6F2136669200E01116 /* Frameworks */,
 			);
 			path = "dbffca986f6337f8-GoogleSymbolUtilities-1.1.1 2";
 			sourceTree = "<group>";
 		};
-		6A74E4AA2133EFBC0059621F /* Frameworks */ = {
+		6A844C6F2136669200E01116 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				6A74E4AB2133EFBC0059621F /* GoogleSymbolUtilities.framework */,
+				6A844C702136669200E01116 /* GoogleSymbolUtilities.framework */,
 			);
 			path = Frameworks;
 			sourceTree = "<group>";
 		};
-		6A74E4AC2133EFBE0059621F /* GoogleUtilities-1.3.2 */ = {
+		6A844C712136669300E01116 /* GoogleUtilities-1.3.2 */ = {
 			isa = PBXGroup;
 			children = (
-				6A74E4AD2133EFBE0059621F /* dummy.txt */,
-				6A74E4AE2133EFBE0059621F /* Frameworks */,
+				6A844C722136669300E01116 /* dummy.txt */,
+				6A844C732136669300E01116 /* Frameworks */,
 			);
 			path = "GoogleUtilities-1.3.2";
 			sourceTree = "<group>";
 		};
-		6A74E4AE2133EFBE0059621F /* Frameworks */ = {
+		6A844C732136669300E01116 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				6A74E4AF2133EFBE0059621F /* frameworks */,
+				6A844C742136669300E01116 /* frameworks */,
 			);
 			path = Frameworks;
 			sourceTree = "<group>";
 		};
-		6A74E4AF2133EFBE0059621F /* frameworks */ = {
+		6A844C742136669300E01116 /* frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				6A74E4B02133EFBE0059621F /* GoogleUtilities.framework */,
+				6A844C752136669300E01116 /* GoogleUtilities.framework */,
 			);
 			path = frameworks;
 			sourceTree = "<group>";
 		};
-		6A74E4B12133EFC10059621F /* GoogleNetworkingUtilities-1.2.2 */ = {
+		6A844C762136669500E01116 /* GoogleNetworkingUtilities-1.2.2 */ = {
 			isa = PBXGroup;
 			children = (
-				6A74E4B22133EFC10059621F /* dummy.txt */,
-				6A74E4B32133EFC10059621F /* Frameworks */,
+				6A844C772136669500E01116 /* dummy.txt */,
+				6A844C782136669500E01116 /* Frameworks */,
 			);
 			path = "GoogleNetworkingUtilities-1.2.2";
 			sourceTree = "<group>";
 		};
-		6A74E4B32133EFC10059621F /* Frameworks */ = {
+		6A844C782136669500E01116 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				6A74E4B42133EFC10059621F /* frameworks */,
+				6A844C792136669500E01116 /* frameworks */,
 			);
 			path = Frameworks;
 			sourceTree = "<group>";
 		};
-		6A74E4B42133EFC10059621F /* frameworks */ = {
+		6A844C792136669500E01116 /* frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				6A74E4B52133EFC10059621F /* GoogleNetworkingUtilities.framework */,
+				6A844C7A2136669500E01116 /* GoogleNetworkingUtilities.framework */,
 			);
 			path = frameworks;
 			sourceTree = "<group>";
 		};
-		6A74E4B62133EFC70059621F /* GoogleMobileVision-1.1.0 */ = {
+		6A844C7B2136669900E01116 /* GoogleMobileVision-1.1.0 */ = {
 			isa = PBXGroup;
 			children = (
-				6A74E4B72133EFC70059621F /* FaceDetector */,
-				6A74E4C22133EFC70059621F /* Detector */,
-				6A74E4C72133EFC70059621F /* MVDataOutput */,
+				6A844C7C2136669900E01116 /* FaceDetector */,
+				6A844C872136669900E01116 /* Detector */,
+				6A844C8C2136669900E01116 /* MVDataOutput */,
 			);
 			path = "GoogleMobileVision-1.1.0";
 			sourceTree = "<group>";
 		};
-		6A74E4B72133EFC70059621F /* FaceDetector */ = {
+		6A844C7C2136669900E01116 /* FaceDetector */ = {
 			isa = PBXGroup;
 			children = (
-				6A74E4B82133EFC70059621F /* Resources */,
-				6A74E4BF2133EFC70059621F /* Frameworks */,
+				6A844C7D2136669900E01116 /* Resources */,
+				6A844C842136669900E01116 /* Frameworks */,
 			);
 			path = FaceDetector;
 			sourceTree = "<group>";
 		};
-		6A74E4B82133EFC70059621F /* Resources */ = {
+		6A844C7D2136669900E01116 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				6A74E4B92133EFC70059621F /* BCLlefteyeclosed_200.emd */,
-				6A74E4BA2133EFC70059621F /* BCLjoy_100.emd */,
-				6A74E4BB2133EFC70059621F /* MFTprec_202.emd */,
-				6A74E4BC2133EFC70059621F /* PFFprec_702.emd */,
-				6A74E4BD2133EFC70059621F /* LMprec_600.emd */,
-				6A74E4BE2133EFC70059621F /* BCLrighteyeclosed_200.emd */,
+				6A844C7E2136669900E01116 /* BCLlefteyeclosed_200.emd */,
+				6A844C7F2136669900E01116 /* BCLjoy_100.emd */,
+				6A844C802136669900E01116 /* MFTprec_202.emd */,
+				6A844C812136669900E01116 /* PFFprec_702.emd */,
+				6A844C822136669900E01116 /* LMprec_600.emd */,
+				6A844C832136669900E01116 /* BCLrighteyeclosed_200.emd */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
 		};
-		6A74E4BF2133EFC70059621F /* Frameworks */ = {
+		6A844C842136669900E01116 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				6A74E4C02133EFC70059621F /* frameworks */,
+				6A844C852136669900E01116 /* frameworks */,
 			);
 			path = Frameworks;
 			sourceTree = "<group>";
 		};
-		6A74E4C02133EFC70059621F /* frameworks */ = {
+		6A844C852136669900E01116 /* frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				6A74E4C12133EFC70059621F /* FaceDetector.framework */,
+				6A844C862136669900E01116 /* FaceDetector.framework */,
 			);
 			path = frameworks;
 			sourceTree = "<group>";
 		};
-		6A74E4C22133EFC70059621F /* Detector */ = {
+		6A844C872136669900E01116 /* Detector */ = {
 			isa = PBXGroup;
 			children = (
-				6A74E4C32133EFC70059621F /* dummy.txt */,
-				6A74E4C42133EFC70059621F /* Frameworks */,
+				6A844C882136669900E01116 /* dummy.txt */,
+				6A844C892136669900E01116 /* Frameworks */,
 			);
 			path = Detector;
 			sourceTree = "<group>";
 		};
-		6A74E4C42133EFC70059621F /* Frameworks */ = {
+		6A844C892136669900E01116 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				6A74E4C52133EFC70059621F /* frameworks */,
+				6A844C8A2136669900E01116 /* frameworks */,
 			);
 			path = Frameworks;
 			sourceTree = "<group>";
 		};
-		6A74E4C52133EFC70059621F /* frameworks */ = {
+		6A844C8A2136669900E01116 /* frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				6A74E4C62133EFC70059621F /* GoogleMobileVision.framework */,
+				6A844C8B2136669900E01116 /* GoogleMobileVision.framework */,
 			);
 			path = frameworks;
 			sourceTree = "<group>";
 		};
-		6A74E4C72133EFC70059621F /* MVDataOutput */ = {
+		6A844C8C2136669900E01116 /* MVDataOutput */ = {
 			isa = PBXGroup;
 			children = (
-				6A74E4C82133EFC70059621F /* dummy.txt */,
-				6A74E4C92133EFC70059621F /* Frameworks */,
+				6A844C8D2136669900E01116 /* dummy.txt */,
+				6A844C8E2136669900E01116 /* Frameworks */,
 			);
 			path = MVDataOutput;
 			sourceTree = "<group>";
 		};
-		6A74E4C92133EFC70059621F /* Frameworks */ = {
+		6A844C8E2136669900E01116 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				6A74E4CA2133EFC70059621F /* frameworks */,
+				6A844C8F2136669900E01116 /* frameworks */,
 			);
 			path = Frameworks;
 			sourceTree = "<group>";
 		};
-		6A74E4CA2133EFC70059621F /* frameworks */ = {
+		6A844C8F2136669900E01116 /* frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				6A74E4CB2133EFC70059621F /* GoogleMVDataOutput.framework */,
+				6A844C902136669900E01116 /* GoogleMVDataOutput.framework */,
 			);
 			path = frameworks;
 			sourceTree = "<group>";
 		};
-		6A74E4CC2133EFC90059621F /* GoogleInterchangeUtilities-1.2.2 */ = {
+		6A844C912136669A00E01116 /* GoogleInterchangeUtilities-1.2.2 */ = {
 			isa = PBXGroup;
 			children = (
-				6A74E4CD2133EFC90059621F /* dummy.txt */,
-				6A74E4CE2133EFC90059621F /* Frameworks */,
+				6A844C922136669A00E01116 /* dummy.txt */,
+				6A844C932136669A00E01116 /* Frameworks */,
 			);
 			path = "GoogleInterchangeUtilities-1.2.2";
 			sourceTree = "<group>";
 		};
-		6A74E4CE2133EFC90059621F /* Frameworks */ = {
+		6A844C932136669A00E01116 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				6A74E4CF2133EFC90059621F /* frameworks */,
+				6A844C942136669A00E01116 /* frameworks */,
 			);
 			path = Frameworks;
 			sourceTree = "<group>";
 		};
-		6A74E4CF2133EFC90059621F /* frameworks */ = {
+		6A844C942136669A00E01116 /* frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				6A74E4D02133EFC90059621F /* GoogleInterchangeUtilities.framework */,
+				6A844C952136669B00E01116 /* GoogleInterchangeUtilities.framework */,
 			);
 			path = frameworks;
 			sourceTree = "<group>";
@@ -874,7 +873,7 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				6A74E4A72133EF9D0059621F /* Frameworks */,
+				6A844C462136667A00E01116 /* Frameworks */,
 				13B07FAE1A68108700A75B9A /* Manhunt */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* ManhuntTests */,
@@ -1358,18 +1357,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6A74E4D22133EFC90059621F /* dummy.txt in Resources */,
-				6A74E4E22133EFC90059621F /* MFTprec_202.emd in Resources */,
-				6A74E4E82133EFC90059621F /* BCLrighteyeclosed_200.emd in Resources */,
-				6A74E4E62133EFC90059621F /* LMprec_600.emd in Resources */,
-				6A74E4DA2133EFC90059621F /* dummy.txt in Resources */,
-				6A74E4E02133EFC90059621F /* BCLjoy_100.emd in Resources */,
-				6A74E4DE2133EFC90059621F /* BCLlefteyeclosed_200.emd in Resources */,
-				6A74E4F42133EFC90059621F /* dummy.txt in Resources */,
-				6A74E4F02133EFC90059621F /* dummy.txt in Resources */,
-				6A74E4EC2133EFC90059621F /* dummy.txt in Resources */,
-				6A74E4E42133EFC90059621F /* PFFprec_702.emd in Resources */,
-				6A74E4D62133EFC90059621F /* dummy.txt in Resources */,
+				6A844C972136669B00E01116 /* dummy.txt in Resources */,
+				6A844CA72136669B00E01116 /* MFTprec_202.emd in Resources */,
+				6A844CAD2136669B00E01116 /* BCLrighteyeclosed_200.emd in Resources */,
+				6A844CAB2136669B00E01116 /* LMprec_600.emd in Resources */,
+				6A844C9F2136669B00E01116 /* dummy.txt in Resources */,
+				6A844CA52136669B00E01116 /* BCLjoy_100.emd in Resources */,
+				6A844CA32136669B00E01116 /* BCLlefteyeclosed_200.emd in Resources */,
+				6A844CB92136669B00E01116 /* dummy.txt in Resources */,
+				6A844CB52136669B00E01116 /* dummy.txt in Resources */,
+				6A844CB12136669B00E01116 /* dummy.txt in Resources */,
+				6A844CA92136669B00E01116 /* PFFprec_702.emd in Resources */,
+				6A844C9B2136669B00E01116 /* dummy.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1377,20 +1376,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6A74E4E52133EFC90059621F /* LMprec_600.emd in Resources */,
+				6A844CAA2136669B00E01116 /* LMprec_600.emd in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
-				6A74E4D12133EFC90059621F /* dummy.txt in Resources */,
-				6A74E4D92133EFC90059621F /* dummy.txt in Resources */,
-				6A74E4E32133EFC90059621F /* PFFprec_702.emd in Resources */,
-				6A74E4E72133EFC90059621F /* BCLrighteyeclosed_200.emd in Resources */,
-				6A74E4DF2133EFC90059621F /* BCLjoy_100.emd in Resources */,
-				6A74E4F32133EFC90059621F /* dummy.txt in Resources */,
-				6A74E4EB2133EFC90059621F /* dummy.txt in Resources */,
+				6A844C962136669B00E01116 /* dummy.txt in Resources */,
+				6A844C9E2136669B00E01116 /* dummy.txt in Resources */,
+				6A844CA82136669B00E01116 /* PFFprec_702.emd in Resources */,
+				6A844CAC2136669B00E01116 /* BCLrighteyeclosed_200.emd in Resources */,
+				6A844CA42136669B00E01116 /* BCLjoy_100.emd in Resources */,
+				6A844CB82136669B00E01116 /* dummy.txt in Resources */,
+				6A844CB02136669B00E01116 /* dummy.txt in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
-				6A74E4DD2133EFC90059621F /* BCLlefteyeclosed_200.emd in Resources */,
-				6A74E4EF2133EFC90059621F /* dummy.txt in Resources */,
-				6A74E4D52133EFC90059621F /* dummy.txt in Resources */,
-				6A74E4E12133EFC90059621F /* MFTprec_202.emd in Resources */,
+				6A844CA22136669B00E01116 /* BCLlefteyeclosed_200.emd in Resources */,
+				6A844CB42136669B00E01116 /* dummy.txt in Resources */,
+				6A844C9A2136669B00E01116 /* dummy.txt in Resources */,
+				6A844CA62136669B00E01116 /* MFTprec_202.emd in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1519,6 +1518,21 @@
 					"$(PROJECT_DIR)/New\\ Group/GoogleMobileVision-1.1.0/Detector/Frameworks/frameworks",
 					"$(PROJECT_DIR)/New\\ Group/GoogleMobileVision-1.1.0/MVDataOutput/Frameworks/frameworks",
 					"$(PROJECT_DIR)/New\\ Group/GoogleInterchangeUtilities-1.2.2/Frameworks/frameworks",
+					"$(PROJECT_DIR)/Manhunt.xcodeproj/dbffca986f6337f8-GoogleSymbolUtilities-1.1.1\\ 2/Frameworks",
+					"$(PROJECT_DIR)/Manhunt.xcodeproj/GoogleNetworkingUtilities-1.2.2/Frameworks/frameworks",
+					"$(PROJECT_DIR)/Manhunt.xcodeproj/GoogleInterchangeUtilities-1.2.2/Frameworks/frameworks",
+					"$(PROJECT_DIR)/Manhunt.xcodeproj/GoogleMobileVision-1.1.0/FaceDetector/Frameworks/frameworks",
+					"$(PROJECT_DIR)/Manhunt.xcodeproj/GoogleMobileVision-1.1.0/Detector/Frameworks/frameworks",
+					"$(PROJECT_DIR)/Manhunt.xcodeproj/GoogleMobileVision-1.1.0/MVDataOutput/Frameworks/frameworks",
+					"$(PROJECT_DIR)/Manhunt.xcodeproj/GoogleUtilities-1.3.2/Frameworks/frameworks",
+					"$(PROJECT_DIR)/Frameworks/dbffca986f6337f8-GoogleSymbolUtilities-1.1.1\\ 2/Frameworks",
+					"$(PROJECT_DIR)/Frameworks/GoogleUtilities-1.3.2/Frameworks/frameworks",
+					"$(PROJECT_DIR)/Frameworks/GoogleNetworkingUtilities-1.2.2/Frameworks/frameworks",
+					"$(PROJECT_DIR)/Frameworks/GoogleMobileVision-1.1.0/FaceDetector/Frameworks/frameworks",
+					"$(PROJECT_DIR)/Frameworks/GoogleMobileVision-1.1.0/Detector/Frameworks/frameworks",
+					"$(PROJECT_DIR)/Frameworks/GoogleMobileVision-1.1.0/MVDataOutput/Frameworks/frameworks",
+					"$(PROJECT_DIR)/Frameworks/GoogleInterchangeUtilities-1.2.2/Frameworks/frameworks",
+					"$(PROJECT_DIR)/Frameworks/dbffca986f6337f8-GoogleSymbolUtilities-1.1.1\\ 2/Frameworks",
 				);
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -1552,6 +1566,21 @@
 					"$(PROJECT_DIR)/New\\ Group/GoogleMobileVision-1.1.0/Detector/Frameworks/frameworks",
 					"$(PROJECT_DIR)/New\\ Group/GoogleMobileVision-1.1.0/MVDataOutput/Frameworks/frameworks",
 					"$(PROJECT_DIR)/New\\ Group/GoogleInterchangeUtilities-1.2.2/Frameworks/frameworks",
+					"$(PROJECT_DIR)/Manhunt.xcodeproj/dbffca986f6337f8-GoogleSymbolUtilities-1.1.1\\ 2/Frameworks",
+					"$(PROJECT_DIR)/Manhunt.xcodeproj/GoogleNetworkingUtilities-1.2.2/Frameworks/frameworks",
+					"$(PROJECT_DIR)/Manhunt.xcodeproj/GoogleInterchangeUtilities-1.2.2/Frameworks/frameworks",
+					"$(PROJECT_DIR)/Manhunt.xcodeproj/GoogleMobileVision-1.1.0/FaceDetector/Frameworks/frameworks",
+					"$(PROJECT_DIR)/Manhunt.xcodeproj/GoogleMobileVision-1.1.0/Detector/Frameworks/frameworks",
+					"$(PROJECT_DIR)/Manhunt.xcodeproj/GoogleMobileVision-1.1.0/MVDataOutput/Frameworks/frameworks",
+					"$(PROJECT_DIR)/Manhunt.xcodeproj/GoogleUtilities-1.3.2/Frameworks/frameworks",
+					"$(PROJECT_DIR)/Frameworks/dbffca986f6337f8-GoogleSymbolUtilities-1.1.1\\ 2/Frameworks",
+					"$(PROJECT_DIR)/Frameworks/GoogleUtilities-1.3.2/Frameworks/frameworks",
+					"$(PROJECT_DIR)/Frameworks/GoogleNetworkingUtilities-1.2.2/Frameworks/frameworks",
+					"$(PROJECT_DIR)/Frameworks/GoogleMobileVision-1.1.0/FaceDetector/Frameworks/frameworks",
+					"$(PROJECT_DIR)/Frameworks/GoogleMobileVision-1.1.0/Detector/Frameworks/frameworks",
+					"$(PROJECT_DIR)/Frameworks/GoogleMobileVision-1.1.0/MVDataOutput/Frameworks/frameworks",
+					"$(PROJECT_DIR)/Frameworks/GoogleInterchangeUtilities-1.2.2/Frameworks/frameworks",
+					"$(PROJECT_DIR)/Frameworks/dbffca986f6337f8-GoogleSymbolUtilities-1.1.1\\ 2/Frameworks",
 				);
 				INFOPLIST_FILE = ManhuntTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
@@ -1582,6 +1611,21 @@
 					"$(PROJECT_DIR)/New\\ Group/GoogleMobileVision-1.1.0/Detector/Frameworks/frameworks",
 					"$(PROJECT_DIR)/New\\ Group/GoogleMobileVision-1.1.0/MVDataOutput/Frameworks/frameworks",
 					"$(PROJECT_DIR)/New\\ Group/GoogleInterchangeUtilities-1.2.2/Frameworks/frameworks",
+					"$(PROJECT_DIR)/Manhunt.xcodeproj/dbffca986f6337f8-GoogleSymbolUtilities-1.1.1\\ 2/Frameworks",
+					"$(PROJECT_DIR)/Manhunt.xcodeproj/GoogleNetworkingUtilities-1.2.2/Frameworks/frameworks",
+					"$(PROJECT_DIR)/Manhunt.xcodeproj/GoogleInterchangeUtilities-1.2.2/Frameworks/frameworks",
+					"$(PROJECT_DIR)/Manhunt.xcodeproj/GoogleMobileVision-1.1.0/FaceDetector/Frameworks/frameworks",
+					"$(PROJECT_DIR)/Manhunt.xcodeproj/GoogleMobileVision-1.1.0/Detector/Frameworks/frameworks",
+					"$(PROJECT_DIR)/Manhunt.xcodeproj/GoogleMobileVision-1.1.0/MVDataOutput/Frameworks/frameworks",
+					"$(PROJECT_DIR)/Manhunt.xcodeproj/GoogleUtilities-1.3.2/Frameworks/frameworks",
+					"$(PROJECT_DIR)/Frameworks/dbffca986f6337f8-GoogleSymbolUtilities-1.1.1\\ 2/Frameworks",
+					"$(PROJECT_DIR)/Frameworks/GoogleUtilities-1.3.2/Frameworks/frameworks",
+					"$(PROJECT_DIR)/Frameworks/GoogleNetworkingUtilities-1.2.2/Frameworks/frameworks",
+					"$(PROJECT_DIR)/Frameworks/GoogleMobileVision-1.1.0/FaceDetector/Frameworks/frameworks",
+					"$(PROJECT_DIR)/Frameworks/GoogleMobileVision-1.1.0/Detector/Frameworks/frameworks",
+					"$(PROJECT_DIR)/Frameworks/GoogleMobileVision-1.1.0/MVDataOutput/Frameworks/frameworks",
+					"$(PROJECT_DIR)/Frameworks/GoogleInterchangeUtilities-1.2.2/Frameworks/frameworks",
+					"$(PROJECT_DIR)/Frameworks/dbffca986f6337f8-GoogleSymbolUtilities-1.1.1\\ 2/Frameworks",
 				);
 				INFOPLIST_FILE = Manhunt/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -1611,6 +1655,21 @@
 					"$(PROJECT_DIR)/New\\ Group/GoogleMobileVision-1.1.0/Detector/Frameworks/frameworks",
 					"$(PROJECT_DIR)/New\\ Group/GoogleMobileVision-1.1.0/MVDataOutput/Frameworks/frameworks",
 					"$(PROJECT_DIR)/New\\ Group/GoogleInterchangeUtilities-1.2.2/Frameworks/frameworks",
+					"$(PROJECT_DIR)/Manhunt.xcodeproj/dbffca986f6337f8-GoogleSymbolUtilities-1.1.1\\ 2/Frameworks",
+					"$(PROJECT_DIR)/Manhunt.xcodeproj/GoogleNetworkingUtilities-1.2.2/Frameworks/frameworks",
+					"$(PROJECT_DIR)/Manhunt.xcodeproj/GoogleInterchangeUtilities-1.2.2/Frameworks/frameworks",
+					"$(PROJECT_DIR)/Manhunt.xcodeproj/GoogleMobileVision-1.1.0/FaceDetector/Frameworks/frameworks",
+					"$(PROJECT_DIR)/Manhunt.xcodeproj/GoogleMobileVision-1.1.0/Detector/Frameworks/frameworks",
+					"$(PROJECT_DIR)/Manhunt.xcodeproj/GoogleMobileVision-1.1.0/MVDataOutput/Frameworks/frameworks",
+					"$(PROJECT_DIR)/Manhunt.xcodeproj/GoogleUtilities-1.3.2/Frameworks/frameworks",
+					"$(PROJECT_DIR)/Frameworks/dbffca986f6337f8-GoogleSymbolUtilities-1.1.1\\ 2/Frameworks",
+					"$(PROJECT_DIR)/Frameworks/GoogleUtilities-1.3.2/Frameworks/frameworks",
+					"$(PROJECT_DIR)/Frameworks/GoogleNetworkingUtilities-1.2.2/Frameworks/frameworks",
+					"$(PROJECT_DIR)/Frameworks/GoogleMobileVision-1.1.0/FaceDetector/Frameworks/frameworks",
+					"$(PROJECT_DIR)/Frameworks/GoogleMobileVision-1.1.0/Detector/Frameworks/frameworks",
+					"$(PROJECT_DIR)/Frameworks/GoogleMobileVision-1.1.0/MVDataOutput/Frameworks/frameworks",
+					"$(PROJECT_DIR)/Frameworks/GoogleInterchangeUtilities-1.2.2/Frameworks/frameworks",
+					"$(PROJECT_DIR)/Frameworks/dbffca986f6337f8-GoogleSymbolUtilities-1.1.1\\ 2/Frameworks",
 				);
 				INFOPLIST_FILE = Manhunt/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
