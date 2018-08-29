@@ -23,7 +23,7 @@ class MainSwiper extends React.Component {
   }
 
   state = {
-    SwiperIndex: 2,
+    SwiperIndex: 1,
     SwiperShowsButtons: false,
     SwiperPrevButton: <View></View>,
     SwiperNextButton: <View></View>

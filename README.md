@@ -11,7 +11,7 @@ Coming soon to the App Store.
 – Frank Reynolds
 
 # When trying to build from clone...
-The Google Vision libraries are not included in this repo because they're too big to upload to git. Download them from the links provided by the `react-native-camera` repo and place them in a folder called "Frameworks" inside `Manhunt/ios/`.
+The Google Vision libraries are not included in this repo because they're too big to upload to git. Download them from the links provided by the `react-native-camera` repo and place them in a folder called "Frameworks" inside `Manhunt/ios/`. Finally, delete the "BarcodeDetector" and "copy" folders from the Google Mobile Vision folder.
 
 You will also likely need to change the permissions on the root directory for Xcode to build the project properly. This can be done on MacOS by following these steps:
 1. Select the root directory

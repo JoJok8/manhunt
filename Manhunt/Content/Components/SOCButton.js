@@ -32,7 +32,7 @@ export default class SOCButton extends React.Component {
     let pressedStyle = {transform: [{scale:this.animatedValue}]};
     return (
         <TouchableWithoutFeedback onPressIn={this.depressed.bind(this)} onPressOut={this.unpressed.bind(this)} style={this.props.theStyle}>
-          <Animated.View style={pressedStyle}>
+          <Animated.View style={[pressedStyle, SOCStyles.ContentContainer]}>
             {this.props.children}
           </Animated.View>
         </TouchableWithoutFeedback>
@@ -40,4 +40,8 @@ export default class SOCButton extends React.Component {
   }
 }
 
-const styles = StyleSheet.create({});
+const SOCStyles = StyleSheet.create({
+  ContentContainer: {
+    overflow: 'visible'
+  }
+});

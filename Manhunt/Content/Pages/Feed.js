@@ -25,7 +25,7 @@ const FeedStyles = StyleSheet.create({
     backgroundColor: 'white'
   },
   StatusBarBackground: {
-    backgroundColor: 'rgba(255,255,255,0.99)',
+    backgroundColor: 'rgba(255,255,255,0.0)',
     width: '100%',
     height: 20,
     zIndex: 100
